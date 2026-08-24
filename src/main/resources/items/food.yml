@@ -1,0 +1,67 @@
+coconut:
+  tags: ["cosmetic", "food"]
+  item:
+    group: food
+    id: coconut
+orange_juice:
+  tags: ["cosmetic", "food"]
+  item:
+    group: food
+    id: orange_juice
+
+steak:
+  tags: ["cosmetic", "food"]
+  item:
+    group: food
+    id: steak
+
+water_melon:
+  tags: ["food"]
+  item:
+    group: food
+    id: water_melon
+raw_cod:
+  tags: ["food"]
+  item:
+    group: food
+    id: raw_cod
+raw_salmon:
+  tags: ["food"]
+  item:
+    group: food
+    id: raw_salmon
+bread:
+  tags: ["food"]
+  item:
+    group: food
+    id: bread
+
+baked_potato:
+  tags: ["food"]
+  item:
+    group: food
+    id: baked_potato
+
+pumpkin_pie:
+  tags: ["food"]
+  item:
+    group: food
+    id: pumpkin_pie
+
+cooked_porkchop:
+  tags: ["food"]
+  item:
+    group: food
+    id: cooked_porkchop
+
+golden_carrot:
+  tags: ["food"]
+  item:
+    group: food
+    id: golden_carrot
+
+golden_apple:
+  tags: ["food"]
+  item:
+    group: food
+    id: golden_apple

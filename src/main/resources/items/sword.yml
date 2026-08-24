@@ -1,0 +1,467 @@
+stone_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "stone_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "stone_sword_2"
+  price:
+    - amount: 16
+      item_definition_group: "mineral"
+      item_definition_id: "stone"
+
+stone_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "stone_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "stone_sword_3"
+  price:
+    - amount: 24
+      item_definition_group: "mineral"
+      item_definition_id: "stone"
+
+stone_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "stone_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "stone_sword_4"
+  price:
+    - amount: 3
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_stone"
+
+stone_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "stone_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "coal_sword_1"
+  price:
+    - amount: 5
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_stone"
+
+coal_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "coal_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "coal_sword_2"
+  price:
+    - amount: 16
+      item_definition_group: "mineral"
+      item_definition_id: "coal_block"
+
+coal_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "coal_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "coal_sword_3"
+  price:
+    - amount: 2
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_coal_block"
+
+coal_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "coal_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "coal_sword_4"
+  price:
+    - amount: 5
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_coal_block"
+
+coal_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "coal_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "copper_sword_1"
+  price:
+    - amount: 7
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_coal_block"
+
+copper_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "copper_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "copper_sword_2"
+  price:
+    - amount: 4
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_copper_block"
+
+copper_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "copper_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "copper_sword_3"
+  price:
+    - amount: 7
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_copper_block"
+
+copper_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "copper_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "copper_sword_4"
+  price:
+    - amount: 10
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_copper_block"
+
+copper_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "copper_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "iron_sword_1"
+  price:
+    - amount: 12
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_copper_block"
+
+iron_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "iron_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "iron_sword_2"
+  price:
+    - amount: 5
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_iron_block"
+
+iron_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "iron_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "iron_sword_3"
+  price:
+    - amount: 9
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_iron_block"
+
+iron_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "iron_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "iron_sword_4"
+  price:
+    - amount: 12
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_iron_block"
+
+iron_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "iron_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "gold_sword_1"
+  price:
+    - amount: 20
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_iron_block"
+
+gold_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "gold_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "gold_sword_2"
+  price:
+    - amount: 8
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_gold_block"
+
+gold_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "gold_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "gold_sword_3"
+  price:
+    - amount: 12
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_gold_block"
+
+gold_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "gold_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "gold_sword_4"
+  price:
+    - amount: 21
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_gold_block"
+
+gold_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "gold_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "lapis_sword_1"
+  price:
+    - amount: 24
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_gold_block"
+
+lapis_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "lapis_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "lapis_sword_2"
+  price:
+    - amount: 6
+      item_definition_group: "mineral"
+      item_definition_id: "compressed_lapis_block"
+
+lapis_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "lapis_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "lapis_sword_3"
+  price:
+    - amount: 4
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_lapis_block"
+
+lapis_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "lapis_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "lapis_sword_4"
+  price:
+    - amount: 7
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_lapis_block"
+
+lapis_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "lapis_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "amethyst_sword_1"
+  price:
+    - amount: 10
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_lapis_block"
+
+
+amethyst_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "amethyst_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "amethyst_sword_2"
+  price:
+    - amount: 3
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_amethyst_block"
+
+amethyst_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "amethyst_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "amethyst_sword_3"
+  price:
+    - amount: 7
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_amethyst_block"
+
+amethyst_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "amethyst_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "amethyst_sword_4"
+  price:
+    - amount: 12
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_amethyst_block"
+
+amethyst_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "amethyst_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "emerald_sword_1"
+  price:
+    - amount: 20
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_amethyst_block"
+
+
+emerald_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "emerald_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "emerald_sword_2"
+  price:
+    - amount: 5
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_emerald_block"
+
+emerald_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "emerald_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "emerald_sword_3"
+  price:
+    - amount: 12
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_emerald_block"
+
+emerald_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "emerald_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "emerald_sword_4"
+  price:
+    - amount: 18
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_emerald_block"
+
+emerald_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "emerald_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "diamond_sword_1"
+  price:
+    - amount: 24
+      item_definition_group: "mineral"
+      item_definition_id: "super_compressed_emerald_block"
+
+
+diamond_sword_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "diamond_sword_1"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "diamond_sword_2"
+  price:
+    - amount: 2
+      item_definition_group: "mineral"
+      item_definition_id: "mega_compressed_diamond_block"
+
+diamond_sword_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "diamond_sword_2"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "diamond_sword_3"
+  price:
+    - amount: 5
+      item_definition_group: "mineral"
+      item_definition_id: "mega_compressed_diamond_block"
+
+diamond_sword_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "diamond_sword_3"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "diamond_sword_4"
+  price:
+    - amount: 8
+      item_definition_group: "mineral"
+      item_definition_id: "mega_compressed_diamond_block"
+
+diamond_sword_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "sword"
+    id: "diamond_sword_4"
+  next:
+    item_definition_group: "sword"
+    item_definition_id: "diamond_sword_4"
+  price: []

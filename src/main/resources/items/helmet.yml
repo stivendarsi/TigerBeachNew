@@ -1,0 +1,477 @@
+stone_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "stone_helmet_2"
+  price:
+    - amount: 3
+      item_definition_id: "stone"
+      item_definition_group: "mineral"
+
+stone_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "stone_helmet_3"
+  price:
+    - amount: 12
+      item_definition_id: "stone"
+      item_definition_group: "mineral"
+
+stone_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "stone_helmet_4"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_stone"
+      item_definition_group: "mineral"
+
+stone_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "coal_helmet_1"
+  price:
+    - amount: 4
+      item_definition_id: "compressed_stone"
+      item_definition_group: "mineral"
+
+
+coal_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "coal_helmet_2"
+  price:
+    - amount: 7
+      item_definition_id: "coal_block"
+      item_definition_group: "mineral"
+
+coal_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "coal_helmet_3"
+  price:
+    - amount: 12
+      item_definition_id: "coal_block"
+      item_definition_group: "mineral"
+
+coal_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "coal_helmet_4"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_coal_block"
+      item_definition_group: "mineral"
+
+coal_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "copper_helmet_1"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_coal_block"
+      item_definition_group: "mineral"
+
+
+
+copper_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "copper_helmet_2"
+  price:
+    - amount: 12
+      item_definition_id: "copper_block"
+      item_definition_group: "mineral"
+
+copper_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "copper_helmet_3"
+  price:
+    - amount: 3
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+copper_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "copper_helmet_4"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+copper_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "iron_helmet_1"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+
+
+iron_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "iron_helmet_2"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "iron_helmet_3"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "iron_helmet_4"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "gold_helmet_1"
+  price:
+    - amount: 12
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+
+gold_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "gold_helmet_2"
+  price:
+    - amount: 6
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "gold_helmet_3"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "gold_helmet_4"
+  price:
+    - amount: 12
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "lapis_helmet_1"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+
+lapis_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "lapis_helmet_2"
+  price:
+    - amount: 7
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "lapis_helmet_3"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "lapis_helmet_4"
+  price:
+    - amount: 20
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "amethyst_helmet_1"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_lapis_block"
+      item_definition_group: "mineral"
+
+
+amethyst_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "amethyst_helmet_2"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "amethyst_helmet_3"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "amethyst_helmet_4"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "emerald_helmet_1"
+  price:
+    - amount: 4
+      item_definition_id: "super_compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+
+emerald_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "emerald_helmet_2"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "emerald_helmet_3"
+  price:
+    - amount: 24
+      item_definition_id: "compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "emerald_helmet_4"
+  price:
+    - amount: 3
+      item_definition_id: "super_compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "diamond_helmet_1"
+  price:
+    - amount: 6
+      item_definition_id: "super_compressed_emerald_block"
+      item_definition_group: "mineral"
+
+
+diamond_helmet_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_helmet_1"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "diamond_helmet_2"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_helmet_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_helmet_2"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "diamond_helmet_3"
+  price:
+    - amount: 5
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_helmet_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_helmet_3"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "diamond_helmet_4"
+  price:
+    - amount: 7
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_helmet_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_helmet_4"
+  next:
+    item_definition_group: "helmet"
+    item_definition_id: "diamond_helmet_4"
+  price:
+    - amount: 10
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"

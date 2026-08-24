@@ -1,0 +1,477 @@
+stone_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "stone_boots_2"
+  price:
+    - amount: 3
+      item_definition_id: "stone"
+      item_definition_group: "mineral"
+
+stone_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "stone_boots_3"
+  price:
+    - amount: 12
+      item_definition_id: "stone"
+      item_definition_group: "mineral"
+
+stone_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "stone_boots_4"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_stone"
+      item_definition_group: "mineral"
+
+stone_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "coal_boots_1"
+  price:
+    - amount: 4
+      item_definition_id: "compressed_stone"
+      item_definition_group: "mineral"
+
+
+coal_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "coal_boots_2"
+  price:
+    - amount: 7
+      item_definition_id: "coal_block"
+      item_definition_group: "mineral"
+
+coal_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "coal_boots_3"
+  price:
+    - amount: 12
+      item_definition_id: "coal_block"
+      item_definition_group: "mineral"
+
+coal_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "coal_boots_4"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_coal_block"
+      item_definition_group: "mineral"
+
+coal_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "copper_boots_1"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_coal_block"
+      item_definition_group: "mineral"
+
+
+
+copper_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "copper_boots_2"
+  price:
+    - amount: 12
+      item_definition_id: "copper_block"
+      item_definition_group: "mineral"
+
+copper_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "copper_boots_3"
+  price:
+    - amount: 3
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+copper_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "copper_boots_4"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+copper_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "iron_boots_1"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+
+
+iron_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "iron_boots_2"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "iron_boots_3"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "iron_boots_4"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "gold_boots_1"
+  price:
+    - amount: 12
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+
+gold_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "gold_boots_2"
+  price:
+    - amount: 6
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "gold_boots_3"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "gold_boots_4"
+  price:
+    - amount: 12
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "lapis_boots_1"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+
+lapis_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "lapis_boots_2"
+  price:
+    - amount: 7
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "lapis_boots_3"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "lapis_boots_4"
+  price:
+    - amount: 20
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "amethyst_boots_1"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_lapis_block"
+      item_definition_group: "mineral"
+
+
+amethyst_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "amethyst_boots_2"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "amethyst_boots_3"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "amethyst_boots_4"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "emerald_boots_1"
+  price:
+    - amount: 4
+      item_definition_id: "super_compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+
+emerald_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "emerald_boots_2"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "emerald_boots_3"
+  price:
+    - amount: 24
+      item_definition_id: "compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "emerald_boots_4"
+  price:
+    - amount: 3
+      item_definition_id: "super_compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "diamond_boots_1"
+  price:
+    - amount: 6
+      item_definition_id: "super_compressed_emerald_block"
+      item_definition_group: "mineral"
+
+
+diamond_boots_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_boots_1"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "diamond_boots_2"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_boots_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_boots_2"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "diamond_boots_3"
+  price:
+    - amount: 5
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_boots_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_boots_3"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "diamond_boots_4"
+  price:
+    - amount: 7
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_boots_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_boots_4"
+  next:
+    item_definition_group: "boots"
+    item_definition_id: "diamond_boots_4"
+  price:
+    - amount: 10
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"

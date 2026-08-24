@@ -1,0 +1,15 @@
+name: TigerBeach
+version: '${version}'
+
+main: me.stivendarsi.tigerBeach.TigerBeach
+api-version: '26.2'
+load: POSTWORLD
+folia-supported: true
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: true
+    FastAsyncWorldEdit:
+      load: BEFORE
+      required: true

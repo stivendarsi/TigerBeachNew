@@ -1,0 +1,477 @@
+stone_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "stone_leggings_2"
+  price:
+    - amount: 3
+      item_definition_id: "stone"
+      item_definition_group: "mineral"
+
+stone_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "stone_leggings_3"
+  price:
+    - amount: 12
+      item_definition_id: "stone"
+      item_definition_group: "mineral"
+
+stone_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "stone_leggings_4"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_stone"
+      item_definition_group: "mineral"
+
+stone_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "stone_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "coal_leggings_1"
+  price:
+    - amount: 4
+      item_definition_id: "compressed_stone"
+      item_definition_group: "mineral"
+
+
+coal_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "coal_leggings_2"
+  price:
+    - amount: 7
+      item_definition_id: "coal_block"
+      item_definition_group: "mineral"
+
+coal_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "coal_leggings_3"
+  price:
+    - amount: 12
+      item_definition_id: "coal_block"
+      item_definition_group: "mineral"
+
+coal_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "coal_leggings_4"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_coal_block"
+      item_definition_group: "mineral"
+
+coal_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "coal_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "copper_leggings_1"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_coal_block"
+      item_definition_group: "mineral"
+
+
+
+copper_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "copper_leggings_2"
+  price:
+    - amount: 12
+      item_definition_id: "copper_block"
+      item_definition_group: "mineral"
+
+copper_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "copper_leggings_3"
+  price:
+    - amount: 3
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+copper_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "copper_leggings_4"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+copper_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "copper_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "iron_leggings_1"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_copper_block"
+      item_definition_group: "mineral"
+
+
+
+iron_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "iron_leggings_2"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "iron_leggings_3"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "iron_leggings_4"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+iron_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "iron_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "gold_leggings_1"
+  price:
+    - amount: 12
+      item_definition_id: "compressed_iron_block"
+      item_definition_group: "mineral"
+
+
+gold_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "gold_leggings_2"
+  price:
+    - amount: 6
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "gold_leggings_3"
+  price:
+    - amount: 9
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "gold_leggings_4"
+  price:
+    - amount: 12
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+gold_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "gold_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "lapis_leggings_1"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_gold_block"
+      item_definition_group: "mineral"
+
+
+lapis_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "lapis_leggings_2"
+  price:
+    - amount: 7
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "lapis_leggings_3"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "lapis_leggings_4"
+  price:
+    - amount: 20
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+lapis_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "lapis_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "amethyst_leggings_1"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_lapis_block"
+      item_definition_group: "mineral"
+
+
+amethyst_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "amethyst_leggings_2"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "amethyst_leggings_3"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "amethyst_leggings_4"
+  price:
+    - amount: 2
+      item_definition_id: "super_compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+amethyst_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "amethyst_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "emerald_leggings_1"
+  price:
+    - amount: 4
+      item_definition_id: "super_compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+
+emerald_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "emerald_leggings_2"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "emerald_leggings_3"
+  price:
+    - amount: 24
+      item_definition_id: "compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "emerald_leggings_4"
+  price:
+    - amount: 3
+      item_definition_id: "super_compressed_emerald_block"
+      item_definition_group: "mineral"
+
+emerald_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "emerald_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "diamond_leggings_1"
+  price:
+    - amount: 6
+      item_definition_id: "super_compressed_emerald_block"
+      item_definition_group: "mineral"
+
+
+diamond_leggings_1:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_leggings_1"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "diamond_leggings_2"
+  price:
+    - amount: 2
+      item_definition_id: "compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_leggings_2:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_leggings_2"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "diamond_leggings_3"
+  price:
+    - amount: 5
+      item_definition_id: "compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_leggings_3:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_leggings_3"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "diamond_leggings_4"
+  price:
+    - amount: 7
+      item_definition_id: "compressed_diamond_block"
+      item_definition_group: "mineral"
+
+diamond_leggings_4:
+  tags: ["conversion", "progression"]
+  item:
+    group: "armor"
+    id: "diamond_leggings_4"
+  next:
+    item_definition_group: "leggings"
+    item_definition_id: "diamond_leggings_4"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_diamond_block"
+      item_definition_group: "mineral"

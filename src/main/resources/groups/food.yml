@@ -1,0 +1,39 @@
+coconut:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#ffc3bf:#f2f2f2:#ffc3bf>משקה קוקוס"
+  lore:
+    - "<gray>המשקה הכי מרענן בחוף!"
+  max_stack_size: 16
+  item_model: tiger_beach:cosmetics/coconut
+  food:
+    nutrition: 30
+    saturation: 30
+    can_always_eat: true
+  consumable:
+    animation: DRINK
+    sound: entity.generic.drink
+    effects:
+      APPLY_EFFECTS:
+        effects:
+          haste:
+            amplifier: 2
+            duration: 1200
+
+orange_juice:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#fc8a38:#fca84e:#fc8a38>מיץ תפוזים"
+  lore:
+    - "<gray>הממ... תפוזים..."
+  max_stack_size: 5
+  item_model: tiger_beach:cosmetics/orange_juice
+  consumable:
+    animation: DRINK
+    sound: entity.generic.drink
+    effects:
+      APPLY_EFFECTS:
+        effects:
+          haste:
+            amplifier: 1
+            duration: 1200

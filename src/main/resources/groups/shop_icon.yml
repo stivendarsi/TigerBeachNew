@@ -1,0 +1,8 @@
+food_products:
+  type: cooked_beef
+  item_name: "מאכלים"
+
+treasure_tools:
+  type: paper
+  item_name: "כלי חפירה"
+  item_model: "tiger_beach:shovel/stone"

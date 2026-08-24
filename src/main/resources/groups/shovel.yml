@@ -1,0 +1,17 @@
+stone_shovel_1:
+  type: "paper"
+  item_name: "<#dbdbdb>את חפירה מאבן"
+  item_model: "tiger_beach:shovel/stone"
+  lore:
+    - "<gray>את חפירה מיועד לחפירת אוצרות"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>1"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  consumable:
+    consume_seconds: 100000
+    animation: BRUSH

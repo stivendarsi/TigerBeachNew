@@ -1,0 +1,12 @@
+# tags: ["conversion", "progression", "mine_reward"] # -> these tags will be applied to the item
+# Conversion Tag Fields: next,price
+# Progression Tag Fields: <none>
+# Mine Reward Tag Fields: <none>
+# Cosmetic Tag Fields: <none>
+# This will allow a more dynamic way of handling items, similar to the vanilla item model definitions.
+
+stone_shovel_1:
+  weight: 1
+  item:
+    group: "shovel"
+    id: "stone_shovel_1"

@@ -1,0 +1,13 @@
+food_products:
+  tags: ["aisle_icon"]
+  aisle_id: food # inherited from aile_icon tag
+  item:
+    id: food_products
+    group: shop_icon
+
+    #treasure_tools:
+    # tags: ["aisle_icon"]
+    # aisle_id: treasure_tools # inherited from aile_icon tag
+    # item:
+    # id: treasure_tools
+    # group: shop_icon

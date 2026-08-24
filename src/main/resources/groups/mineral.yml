@@ -1,0 +1,116 @@
+stone:
+  type: "cobblestone"
+  item_name: "<#dbdbdb>אבן"
+compressed_stone:
+  type: "cobblestone"
+  item_name: "<#dbdbdb>אבן דחוסה"
+  enchantment_glint_override: true
+
+coal:
+  type: "coal"
+  item_name: "<#6b6b6b>פחם"
+coal_block:
+  type: "coal_block"
+  item_name: "<#6b6b6b>בלוק פחם"
+
+compressed_coal_block:
+  type: "coal_block"
+  item_name: "<#6b6b6b>בלוק פחם דחוס"
+  enchantment_glint_override: true
+
+copper:
+  type: "copper_ingot"
+  item_name: "<#ffb39c>נחושת"
+copper_block:
+  type: "copper_block"
+  item_name: "<#ffb39c>בלוק נחושת"
+compressed_copper_block:
+  type: "copper_block"
+  item_name: "<#ffb39c>בלוק נחושת דחוס"
+  enchantment_glint_override: true
+
+iron:
+  type: "iron_ingot"
+  item_name: "<#f2f2f2>ברזל"
+iron_block:
+  type: "iron_block"
+  item_name: "<#f2f2f2>בלוק ברזל"
+compressed_iron_block:
+  type: "iron_block"
+  item_name: "<#f2f2f2>בלוק ברזל דחוס"
+  enchantment_glint_override: true
+
+gold:
+  type: "gold_ingot"
+  item_name: "<#ffdd00>זהב"
+gold_block:
+  type: "gold_block"
+  item_name: "<#ffdd00>בלוק זהב"
+compressed_gold_block:
+  type: "gold_block"
+  item_name: "<#ffdd00>בלוק זהב דחוס"
+  enchantment_glint_override: true
+
+lapis:
+  type: "lapis_lazuli"
+  item_name: "<#2696ff>ספיר"
+lapis_block:
+  type: "lapis_block"
+  item_name: "<#2696ff>בלוק ספיר"
+compressed_lapis_block:
+  type: "lapis_block"
+  item_name: "<#2696ff>בלוק ספיר דחוס"
+  enchantment_glint_override: true
+super_compressed_lapis_block:
+  type: "lapis_block"
+  item_name: "<#2696ff>בלוק ספיר סופר דחוס"
+  enchantment_glint_override: true
+
+amethyst:
+  type: "amethyst_shard"
+  item_name: "<#ff85f3>אחלמה"
+amethyst_block:
+  type: "amethyst_block"
+  item_name: "<#ff85f3>בלוק אחלמה"
+compressed_amethyst_block:
+  type: "amethyst_block"
+  item_name: "<#ff85f3>בלוק אחלמה דחוס"
+  enchantment_glint_override: true
+super_compressed_amethyst_block:
+  type: "amethyst_block"
+  item_name: "<#ff85f3>בלוק אחלמה סופר דחוס"
+  enchantment_glint_override: true
+
+emerald:
+  type: "emerald"
+  item_name: "<#11f52c>ברקת"
+emerald_block:
+  type: "emerald_block"
+  item_name: "<#11f52c>בלוק ברקת"
+compressed_emerald_block:
+  type: "emerald_block"
+  item_name: "<#11f52c>בלוק ברקת דחוס"
+  enchantment_glint_override: true
+super_compressed_emerald_block:
+  type: "emerald_block"
+  item_name: "<#11f52c>בלוק ברקת סופר דחוס"
+  enchantment_glint_override: true
+
+diamond:
+  type: "diamond"
+  item_name: "<#11daf5>יהלום"
+diamond_block:
+  type: "diamond_block"
+  item_name: "<#11daf5>בלוק יהלום"
+compressed_diamond_block:
+  type: "diamond_block"
+  item_name: "<#11daf5>בלוק יהלום דחוס"
+  enchantment_glint_override: true
+super_compressed_diamond_block:
+  type: "diamond_block"
+  item_name: "<#11daf5>בלוק יהלום סופר דחוס"
+  enchantment_glint_override: true
+mega_compressed_diamond_block:
+  type: "diamond_block"
+  item_name: "<#11daf5>בלוק יהלום מגה דחוס"
+  enchantment_glint_override: true

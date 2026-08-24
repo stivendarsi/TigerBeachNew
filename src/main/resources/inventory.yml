@@ -1,0 +1,19 @@
+default:
+    pickaxe:
+        item_definition_group: pickaxe
+        item_definition_id: "stone_pickaxe_1"
+    sword:
+        item_definition_group: sword
+        item_definition_id: "stone_sword_1"
+    helmet:
+        item_definition_group: helmet
+        item_definition_id: "stone_helmet_1"
+    chestplate:
+        item_definition_group: chestplate
+        item_definition_id: "stone_chestplate_1"
+    leggings:
+        item_definition_group: leggings
+        item_definition_id: "stone_leggings_1"
+    boots:
+        item_definition_group: boots
+        item_definition_id: "stone_boots_1"

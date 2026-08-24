@@ -1,0 +1,3487 @@
+stone_helmet_1:
+  type: "paper"
+  item_name: "<#dbdbdb>קסדת אבן"
+  item_model: tiger_beach:armor/stone/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>1"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.25
+      operation: add_number
+stone_chestplate_1:
+  type: "paper"
+  item_name: "<#dbdbdb>שריון אבן"
+  item_model: tiger_beach:armor/stone/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>1"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.25
+      operation: add_number
+stone_leggings_1:
+  type: "paper"
+  item_name: "<#dbdbdb>מגני ברכיים מאבן"
+  item_model: tiger_beach:armor/stone/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>1"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.25
+      operation: add_number
+stone_boots_1:
+  type: "paper"
+  item_name: "<#dbdbdb>נעלי אבן"
+  item_model: tiger_beach:armor/stone/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>1"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.25
+      operation: add_number
+
+stone_helmet_2:
+  type: "paper"
+  item_name: "<#dbdbdb>קסדת אבן"
+  item_model: tiger_beach:armor/stone/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>2"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.50
+      operation: add_number
+stone_chestplate_2:
+  type: "paper"
+  item_name: "<#dbdbdb>שריון אבן"
+  item_model: tiger_beach:armor/stone/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>2"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.50
+      operation: add_number
+stone_leggings_2:
+  type: "paper"
+  item_name: "<#dbdbdb>מגני ברכיים מאבן"
+  item_model: tiger_beach:armor/stone/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>2"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.50
+      operation: add_number
+stone_boots_2:
+  type: "paper"
+  item_name: "<#dbdbdb>נעלי אבן"
+  item_model: tiger_beach:armor/stone/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>2"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.50
+      operation: add_number
+
+
+stone_helmet_3:
+  type: "paper"
+  item_name: "<#dbdbdb>קסדת אבן"
+  item_model: tiger_beach:armor/stone/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>3"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.75
+      operation: add_number
+stone_chestplate_3:
+  type: "paper"
+  item_name: "<#dbdbdb>שריון אבן"
+  item_model: tiger_beach:armor/stone/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>3"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.75
+      operation: add_number
+stone_leggings_3:
+  type: "paper"
+  item_name: "<#dbdbdb>מגני ברכיים מאבן"
+  item_model: tiger_beach:armor/stone/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>3"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.75
+      operation: add_number
+stone_boots_3:
+  type: "paper"
+  item_name: "<#dbdbdb>נעלי אבן"
+  item_model: tiger_beach:armor/stone/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>3"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 0.75
+      operation: add_number
+
+stone_helmet_4:
+  type: "paper"
+  item_name: "<#dbdbdb>קסדת אבן"
+  item_model: tiger_beach:armor/stone/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>4"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.0
+      operation: add_number
+
+stone_chestplate_4:
+  type: "paper"
+  item_name: "<#dbdbdb>שריון אבן"
+  item_model: tiger_beach:armor/stone/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>4"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.0
+      operation: add_number
+
+stone_leggings_4:
+  type: "paper"
+  item_name: "<#dbdbdb>מגני ברכיים מאבן"
+  item_model: tiger_beach:armor/stone/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>4"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.0
+      operation: add_number
+
+stone_boots_4:
+  type: "paper"
+  item_name: "<#dbdbdb>נעלי אבן"
+  item_model: tiger_beach:armor/stone/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:stone
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>4"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.0
+      operation: add_number
+
+
+coal_helmet_1:
+  type: "paper"
+  item_name: "<#6b6b6b>קסדת פחם"
+  item_model: tiger_beach:armor/coal/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>5"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.25
+      operation: add_number
+
+coal_chestplate_1:
+  type: "paper"
+  item_name: "<#6b6b6b>שריון פחם"
+  item_model: tiger_beach:armor/coal/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>5"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.25
+      operation: add_number
+
+coal_leggings_1:
+  type: "paper"
+  item_name: "<#6b6b6b>מגני ברכיים מפחם"
+  item_model: tiger_beach:armor/coal/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>5"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.25
+      operation: add_number
+
+coal_boots_1:
+  type: "paper"
+  item_name: "<#6b6b6b>נעלי פחם"
+  item_model: tiger_beach:armor/coal/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>5"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.25
+      operation: add_number
+
+
+coal_helmet_2:
+  type: "paper"
+  item_name: "<#6b6b6b>קסדת פחם"
+  item_model: tiger_beach:armor/coal/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>6"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.50
+      operation: add_number
+
+coal_chestplate_2:
+  type: "paper"
+  item_name: "<#6b6b6b>שריון פחם"
+  item_model: tiger_beach:armor/coal/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>6"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.50
+      operation: add_number
+
+coal_leggings_2:
+  type: "paper"
+  item_name: "<#6b6b6b>מגני ברכיים מפחם"
+  item_model: tiger_beach:armor/coal/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>6"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.50
+      operation: add_number
+
+coal_boots_2:
+  type: "paper"
+  item_name: "<#6b6b6b>נעלי פחם"
+  item_model: tiger_beach:armor/coal/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>6"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.50
+      operation: add_number
+
+
+coal_helmet_3:
+  type: "paper"
+  item_name: "<#6b6b6b>קסדת פחם"
+  item_model: tiger_beach:armor/coal/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>7"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.75
+      operation: add_number
+
+coal_chestplate_3:
+  type: "paper"
+  item_name: "<#6b6b6b>שריון פחם"
+  item_model: tiger_beach:armor/coal/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>7"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.75
+      operation: add_number
+
+coal_leggings_3:
+  type: "paper"
+  item_name: "<#6b6b6b>מגני ברכיים מפחם"
+  item_model: tiger_beach:armor/coal/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>7"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.75
+      operation: add_number
+
+coal_boots_3:
+  type: "paper"
+  item_name: "<#6b6b6b>נעלי פחם"
+  item_model: tiger_beach:armor/coal/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>7"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 1.75
+      operation: add_number
+
+
+
+coal_helmet_4:
+  type: "paper"
+  item_name: "<#6b6b6b>קסדת פחם"
+  item_model: tiger_beach:armor/coal/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>קסדה מגנה על הראש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>8"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.0
+      operation: add_number
+
+coal_chestplate_4:
+  type: "paper"
+  item_name: "<#6b6b6b>שריון פחם"
+  item_model: tiger_beach:armor/coal/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>8"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.0
+      operation: add_number
+
+coal_leggings_4:
+  type: "paper"
+  item_name: "<#6b6b6b>מגני ברכיים מפחם"
+  item_model: tiger_beach:armor/coal/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>8"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.0
+      operation: add_number
+
+coal_boots_4:
+  type: "paper"
+  item_name: "<#6b6b6b>נעלי פחם"
+  item_model: tiger_beach:armor/coal/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:coal
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>8"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.0
+      operation: add_number
+
+
+
+
+
+copper_helmet_1:
+  type: "paper"
+  item_name: "<#ffb39c>קסדת נחושת"
+  item_model: tiger_beach:armor/copper/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>9"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.25
+      operation: add_number
+
+copper_chestplate_1:
+  type: "paper"
+  item_name: "<#ffb39c>שריון נחושת"
+  item_model: tiger_beach:armor/copper/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>9"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.25
+      operation: add_number
+
+copper_leggings_1:
+  type: "paper"
+  item_name: "<#ffb39c>מכנסי נחושת"
+  item_model: tiger_beach:armor/copper/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>9"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.25
+      operation: add_number
+
+copper_boots_1:
+  type: "paper"
+  item_name: "<#ffb39c>נעלי נחושת"
+  item_model: tiger_beach:armor/copper/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>9"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.25
+      operation: add_number
+
+
+copper_helmet_2:
+  type: "paper"
+  item_name: "<#ffb39c>קסדת נחושת"
+  item_model: tiger_beach:armor/copper/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>10"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.50
+      operation: add_number
+
+copper_chestplate_2:
+  type: "paper"
+  item_name: "<#ffb39c>שריון נחושת"
+  item_model: tiger_beach:armor/copper/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>10"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.50
+      operation: add_number
+
+copper_leggings_2:
+  type: "paper"
+  item_name: "<#ffb39c>מכנסי נחושת"
+  item_model: tiger_beach:armor/copper/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>10"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.50
+      operation: add_number
+
+copper_boots_2:
+  type: "paper"
+  item_name: "<#ffb39c>נעלי נחושת"
+  item_model: tiger_beach:armor/copper/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>10"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.50
+      operation: add_number
+
+
+copper_helmet_3:
+  type: "paper"
+  item_name: "<#ffb39c>קסדת נחושת"
+  item_model: tiger_beach:armor/copper/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>11"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.75
+      operation: add_number
+
+copper_chestplate_3:
+  type: "paper"
+  item_name: "<#ffb39c>שריון נחושת"
+  item_model: tiger_beach:armor/copper/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>11"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.75
+      operation: add_number
+
+copper_leggings_3:
+  type: "paper"
+  item_name: "<#ffb39c>מכנסי נחושת"
+  item_model: tiger_beach:armor/copper/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>11"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.75
+      operation: add_number
+
+copper_boots_3:
+  type: "paper"
+  item_name: "<#ffb39c>נעלי נחושת"
+  item_model: tiger_beach:armor/copper/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>11"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 2.75
+      operation: add_number
+
+
+
+copper_helmet_4:
+  type: "paper"
+  item_name: "<#ffb39c>קסדת נחושת"
+  item_model: tiger_beach:armor/copper/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>12"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.0
+      operation: add_number
+
+copper_chestplate_4:
+  type: "paper"
+  item_name: "<#ffb39c>שריון נחושת"
+  item_model: tiger_beach:armor/copper/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>12"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.0
+      operation: add_number
+
+copper_leggings_4:
+  type: "paper"
+  item_name: "<#ffb39c>מכנסי נחושת"
+  item_model: tiger_beach:armor/copper/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>12"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.0
+      operation: add_number
+
+copper_boots_4:
+  type: "paper"
+  item_name: "<#ffb39c>נעלי נחושת"
+  item_model: tiger_beach:armor/copper/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:copper
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>12"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.0
+      operation: add_number
+
+
+iron_helmet_1:
+  type: "paper"
+  item_name: "<#f2f2f2>קסדת ברזל"
+  item_model: tiger_beach:armor/iron/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>9"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.25
+      operation: add_number
+
+iron_chestplate_1:
+  type: "paper"
+  item_name: "<#f2f2f2>שריון ברזל"
+  item_model: tiger_beach:armor/iron/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>13"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.25
+      operation: add_number
+
+iron_leggings_1:
+  type: "paper"
+  item_name: "<#f2f2f2>מכנסי מברזל"
+  item_model: tiger_beach:armor/iron/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>13"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.25
+      operation: add_number
+
+iron_boots_1:
+  type: "paper"
+  item_name: "<#f2f2f2>נעלי ברזל"
+  item_model: tiger_beach:armor/iron/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>13"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.25
+      operation: add_number
+
+
+iron_helmet_2:
+  type: "paper"
+  item_name: "<#f2f2f2>קסדת ברזל"
+  item_model: tiger_beach:armor/iron/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>14"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.50
+      operation: add_number
+
+iron_chestplate_2:
+  type: "paper"
+  item_name: "<#f2f2f2>שריון ברזל"
+  item_model: tiger_beach:armor/iron/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>14"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.50
+      operation: add_number
+
+iron_leggings_2:
+  type: "paper"
+  item_name: "<#f2f2f2>מכנסי מברזל"
+  item_model: tiger_beach:armor/iron/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>14"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.50
+      operation: add_number
+
+iron_boots_2:
+  type: "paper"
+  item_name: "<#f2f2f2>נעלי ברזל"
+  item_model: tiger_beach:armor/iron/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>14"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.50
+      operation: add_number
+
+
+iron_helmet_3:
+  type: "paper"
+  item_name: "<#f2f2f2>קסדת ברזל"
+  item_model: tiger_beach:armor/iron/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>15"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.75
+      operation: add_number
+
+iron_chestplate_3:
+  type: "paper"
+  item_name: "<#f2f2f2>שריון ברזל"
+  item_model: tiger_beach:armor/iron/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>15"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.75
+      operation: add_number
+
+iron_leggings_3:
+  type: "paper"
+  item_name: "<#f2f2f2>מכנסי מברזל"
+  item_model: tiger_beach:armor/iron/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>15"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.75
+      operation: add_number
+
+iron_boots_3:
+  type: "paper"
+  item_name: "<#f2f2f2>נעלי ברזל"
+  item_model: tiger_beach:armor/iron/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>15"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 3.75
+      operation: add_number
+
+
+
+iron_helmet_4:
+  type: "paper"
+  item_name: "<#f2f2f2>קסדת ברזל"
+  item_model: tiger_beach:armor/iron/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>16"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.0
+      operation: add_number
+
+iron_chestplate_4:
+  type: "paper"
+  item_name: "<#f2f2f2>שריון ברזל"
+  item_model: tiger_beach:armor/iron/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>16"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.0
+      operation: add_number
+
+iron_leggings_4:
+  type: "paper"
+  item_name: "<#f2f2f2>מכנסי מברזל"
+  item_model: tiger_beach:armor/iron/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>16"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.0
+      operation: add_number
+
+iron_boots_4:
+  type: "paper"
+  item_name: "<#f2f2f2>נעלי ברזל"
+  item_model: tiger_beach:armor/iron/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:iron
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>16"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.0
+      operation: add_number
+
+
+gold_helmet_1:
+  type: "paper"
+  item_name: "<#ffdd00>קסדת זהב"
+  item_model: tiger_beach:armor/gold/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>17"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.25
+      operation: add_number
+
+gold_chestplate_1:
+  type: "paper"
+  item_name: "<#ffdd00>שריון זהב"
+  item_model: tiger_beach:armor/gold/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>17"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.25
+      operation: add_number
+
+gold_leggings_1:
+  type: "paper"
+  item_name: "<#ffdd00>מכנסי זהב"
+  item_model: tiger_beach:armor/gold/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>17"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.25
+      operation: add_number
+
+gold_boots_1:
+  type: "paper"
+  item_name: "<#ffdd00>נעלי זהב"
+  item_model: tiger_beach:armor/gold/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>17"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.25
+      operation: add_number
+
+
+gold_helmet_2:
+  type: "paper"
+  item_name: "<#ffdd00>קסדת זהב"
+  item_model: tiger_beach:armor/gold/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>18"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.50
+      operation: add_number
+
+gold_chestplate_2:
+  type: "paper"
+  item_name: "<#ffdd00>שריון זהב"
+  item_model: tiger_beach:armor/gold/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>18"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.50
+      operation: add_number
+
+gold_leggings_2:
+  type: "paper"
+  item_name: "<#ffdd00>מכנסי זהב"
+  item_model: tiger_beach:armor/gold/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>18"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.50
+      operation: add_number
+
+gold_boots_2:
+  type: "paper"
+  item_name: "<#ffdd00>נעלי זהב"
+  item_model: tiger_beach:armor/gold/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>18"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.50
+      operation: add_number
+
+
+gold_helmet_3:
+  type: "paper"
+  item_name: "<#ffdd00>קסדת זהב"
+  item_model: tiger_beach:armor/gold/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>19"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.75
+      operation: add_number
+
+gold_chestplate_3:
+  type: "paper"
+  item_name: "<#ffdd00>שריון זהב"
+  item_model: tiger_beach:armor/gold/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>19"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.75
+      operation: add_number
+
+gold_leggings_3:
+  type: "paper"
+  item_name: "<#ffdd00>מכנסי זהב"
+  item_model: tiger_beach:armor/gold/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>19"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.75
+      operation: add_number
+
+gold_boots_3:
+  type: "paper"
+  item_name: "<#ffdd00>נעלי זהב"
+  item_model: tiger_beach:armor/gold/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>19"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 4.75
+      operation: add_number
+
+
+
+gold_helmet_4:
+  type: "paper"
+  item_name: "<#ffdd00>קסדת זהב"
+  item_model: tiger_beach:armor/gold/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>20"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.0
+      operation: add_number
+
+gold_chestplate_4:
+  type: "paper"
+  item_name: "<#ffdd00>שריון זהב"
+  item_model: tiger_beach:armor/gold/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>20"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.0
+      operation: add_number
+
+gold_leggings_4:
+  type: "paper"
+  item_name: "<#ffdd00>מכנסי זהב"
+  item_model: tiger_beach:armor/gold/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>20"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.0
+      operation: add_number
+
+gold_boots_4:
+  type: "paper"
+  item_name: "<#ffdd00>נעלי זהב"
+  item_model: tiger_beach:armor/gold/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:gold
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>20"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.0
+      operation: add_number
+
+
+
+lapis_helmet_1:
+  type: "paper"
+  item_name: "<#2696ff>קסדת ספיר"
+  item_model: tiger_beach:armor/lapis/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>21"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.25
+      operation: add_number
+
+lapis_chestplate_1:
+  type: "paper"
+  item_name: "<#2696ff>שריון ספיר"
+  item_model: tiger_beach:armor/lapis/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>21"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.25
+      operation: add_number
+
+lapis_leggings_1:
+  type: "paper"
+  item_name: "<#2696ff>מכנסי ספיר"
+  item_model: tiger_beach:armor/lapis/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>21"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.25
+      operation: add_number
+
+lapis_boots_1:
+  type: "paper"
+  item_name: "<#2696ff>נעלי ספיר"
+  item_model: tiger_beach:armor/lapis/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>21"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.25
+      operation: add_number
+
+
+lapis_helmet_2:
+  type: "paper"
+  item_name: "<#2696ff>קסדת ספיר"
+  item_model: tiger_beach:armor/lapis/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>22"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.50
+      operation: add_number
+
+lapis_chestplate_2:
+  type: "paper"
+  item_name: "<#2696ff>שריון ספיר"
+  item_model: tiger_beach:armor/lapis/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>22"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.50
+      operation: add_number
+
+lapis_leggings_2:
+  type: "paper"
+  item_name: "<#2696ff>מכנסי ספיר"
+  item_model: tiger_beach:armor/lapis/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>22"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.50
+      operation: add_number
+
+lapis_boots_2:
+  type: "paper"
+  item_name: "<#2696ff>נעלי ספיר"
+  item_model: tiger_beach:armor/lapis/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>22"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.50
+      operation: add_number
+
+
+lapis_helmet_3:
+  type: "paper"
+  item_name: "<#2696ff>קסדת ספיר"
+  item_model: tiger_beach:armor/lapis/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>23"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.75
+      operation: add_number
+
+lapis_chestplate_3:
+  type: "paper"
+  item_name: "<#2696ff>שריון ספיר"
+  item_model: tiger_beach:armor/lapis/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>23"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.75
+      operation: add_number
+
+lapis_leggings_3:
+  type: "paper"
+  item_name: "<#2696ff>מכנסי ספיר"
+  item_model: tiger_beach:armor/lapis/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>23"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.75
+      operation: add_number
+
+lapis_boots_3:
+  type: "paper"
+  item_name: "<#2696ff>נעלי ספיר"
+  item_model: tiger_beach:armor/lapis/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>23"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 5.75
+      operation: add_number
+
+
+
+lapis_helmet_4:
+  type: "paper"
+  item_name: "<#2696ff>קסדת ספיר"
+  item_model: tiger_beach:armor/lapis/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>24"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.0
+      operation: add_number
+
+lapis_chestplate_4:
+  type: "paper"
+  item_name: "<#2696ff>שריון ספיר"
+  item_model: tiger_beach:armor/lapis/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>24"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.0
+      operation: add_number
+
+lapis_leggings_4:
+  type: "paper"
+  item_name: "<#2696ff>מכנסי ספיר"
+  item_model: tiger_beach:armor/lapis/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>24"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.0
+      operation: add_number
+
+lapis_boots_4:
+  type: "paper"
+  item_name: "<#2696ff>נעלי ספיר"
+  item_model: tiger_beach:armor/lapis/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:lapis
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>24"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.0
+      operation: add_number
+
+
+amethyst_helmet_1:
+  type: "paper"
+  item_name: "<#ff85f3>קסדת אחלמה"
+  item_model: tiger_beach:armor/amethyst/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>25"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.25
+      operation: add_number
+
+amethyst_chestplate_1:
+  type: "paper"
+  item_name: "<#ff85f3>שריון אחלמה"
+  item_model: tiger_beach:armor/amethyst/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>25"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.25
+      operation: add_number
+
+amethyst_leggings_1:
+  type: "paper"
+  item_name: "<#ff85f3>מכנסי אחלמה"
+  item_model: tiger_beach:armor/amethyst/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>25"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.25
+      operation: add_number
+
+amethyst_boots_1:
+  type: "paper"
+  item_name: "<#ff85f3>נעלי אחלמה"
+  item_model: tiger_beach:armor/amethyst/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>25"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.25
+      operation: add_number
+
+
+amethyst_helmet_2:
+  type: "paper"
+  item_name: "<#ff85f3>קסדת אחלמה"
+  item_model: tiger_beach:armor/amethyst/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>26"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.50
+      operation: add_number
+
+amethyst_chestplate_2:
+  type: "paper"
+  item_name: "<#ff85f3>שריון אחלמה"
+  item_model: tiger_beach:armor/amethyst/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>26"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.50
+      operation: add_number
+
+amethyst_leggings_2:
+  type: "paper"
+  item_name: "<#ff85f3>מכנסי אחלמה"
+  item_model: tiger_beach:armor/amethyst/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>26"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.50
+      operation: add_number
+
+amethyst_boots_2:
+  type: "paper"
+  item_name: "<#ff85f3>נעלי אחלמה"
+  item_model: tiger_beach:armor/amethyst/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>26"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.50
+      operation: add_number
+
+
+amethyst_helmet_3:
+  type: "paper"
+  item_name: "<#ff85f3>קסדת אחלמה"
+  item_model: tiger_beach:armor/amethyst/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>27"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.75
+      operation: add_number
+
+amethyst_chestplate_3:
+  type: "paper"
+  item_name: "<#ff85f3>שריון אחלמה"
+  item_model: tiger_beach:armor/amethyst/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>27"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.75
+      operation: add_number
+
+amethyst_leggings_3:
+  type: "paper"
+  item_name: "<#ff85f3>מכנסי אחלמה"
+  item_model: tiger_beach:armor/amethyst/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>27"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.75
+      operation: add_number
+
+amethyst_boots_3:
+  type: "paper"
+  item_name: "<#ff85f3>נעלי אחלמה"
+  item_model: tiger_beach:armor/amethyst/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>27"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 6.75
+      operation: add_number
+
+
+
+amethyst_helmet_4:
+  type: "paper"
+  item_name: "<#ff85f3>קסדת אחלמה"
+  item_model: tiger_beach:armor/amethyst/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>28"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.0
+      operation: add_number
+
+amethyst_chestplate_4:
+  type: "paper"
+  item_name: "<#ff85f3>שריון אחלמה"
+  item_model: tiger_beach:armor/amethyst/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>28"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.0
+      operation: add_number
+
+amethyst_leggings_4:
+  type: "paper"
+  item_name: "<#ff85f3>מכנסי אחלמה"
+  item_model: tiger_beach:armor/amethyst/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>28"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.0
+      operation: add_number
+
+amethyst_boots_4:
+  type: "paper"
+  item_name: "<#ff85f3>נעלי אחלמה"
+  item_model: tiger_beach:armor/amethyst/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:amethyst
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>28"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.0
+      operation: add_number
+
+diamond_helmet_1:
+  type: "paper"
+  item_name: "<#11daf5>קסדת יהלום"
+  item_model: tiger_beach:armor/diamond/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.25
+      operation: add_number
+
+diamond_chestplate_1:
+  type: "paper"
+  item_name: "<#11daf5>שריון יהלום"
+  item_model: tiger_beach:armor/diamond/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.25
+      operation: add_number
+
+diamond_leggings_1:
+  type: "paper"
+  item_name: "<#11daf5>מכנסי יהלום"
+  item_model: tiger_beach:armor/diamond/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.25
+      operation: add_number
+
+diamond_boots_1:
+  type: "paper"
+  item_name: "<#11daf5>נעלי יהלום"
+  item_model: tiger_beach:armor/diamond/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.25
+      operation: add_number
+
+
+diamond_helmet_2:
+  type: "paper"
+  item_name: "<#11daf5>קסדת יהלום"
+  item_model: tiger_beach:armor/diamond/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.50
+      operation: add_number
+
+diamond_chestplate_2:
+  type: "paper"
+  item_name: "<#11daf5>שריון יהלום"
+  item_model: tiger_beach:armor/diamond/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.50
+      operation: add_number
+
+diamond_leggings_2:
+  type: "paper"
+  item_name: "<#11daf5>מכנסי יהלום"
+  item_model: tiger_beach:armor/diamond/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.50
+      operation: add_number
+
+diamond_boots_2:
+  type: "paper"
+  item_name: "<#11daf5>נעלי יהלום"
+  item_model: tiger_beach:armor/diamond/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.50
+      operation: add_number
+
+
+diamond_helmet_3:
+  type: "paper"
+  item_name: "<#11daf5>קסדת יהלום"
+  item_model: tiger_beach:armor/diamond/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.75
+      operation: add_number
+
+diamond_chestplate_3:
+  type: "paper"
+  item_name: "<#11daf5>שריון יהלום"
+  item_model: tiger_beach:armor/diamond/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.75
+      operation: add_number
+
+diamond_leggings_3:
+  type: "paper"
+  item_name: "<#11daf5>מכנסי יהלום"
+  item_model: tiger_beach:armor/diamond/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.75
+      operation: add_number
+
+diamond_boots_3:
+  type: "paper"
+  item_name: "<#11daf5>נעלי יהלום"
+  item_model: tiger_beach:armor/diamond/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.75
+      operation: add_number
+
+emerald_helmet_1:
+  type: "paper"
+  item_name: "<#11f52c>קסדת ברקת"
+  item_model: tiger_beach:armor/emerald/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.25
+      operation: add_number
+
+emerald_chestplate_1:
+  type: "paper"
+  item_name: "<#11f52c>שריון ברקת"
+  item_model: tiger_beach:armor/emerald/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.25
+      operation: add_number
+
+emerald_leggings_1:
+  type: "paper"
+  item_name: "<#11f52c>מכנסי ברקת"
+  item_model: tiger_beach:armor/emerald/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.25
+      operation: add_number
+
+emerald_boots_1:
+  type: "paper"
+  item_name: "<#11f52c>נעלי ברקת"
+  item_model: tiger_beach:armor/emerald/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.25
+      operation: add_number
+
+
+emerald_helmet_2:
+  type: "paper"
+  item_name: "<#11f52c>קסדת ברקת"
+  item_model: tiger_beach:armor/emerald/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.50
+      operation: add_number
+
+emerald_chestplate_2:
+  type: "paper"
+  item_name: "<#11f52c>שריון ברקת"
+  item_model: tiger_beach:armor/emerald/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.50
+      operation: add_number
+
+emerald_leggings_2:
+  type: "paper"
+  item_name: "<#11f52c>מכנסי ברקת"
+  item_model: tiger_beach:armor/emerald/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.50
+      operation: add_number
+
+emerald_boots_2:
+  type: "paper"
+  item_name: "<#11f52c>נעלי ברקת"
+  item_model: tiger_beach:armor/emerald/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.50
+      operation: add_number
+
+
+emerald_helmet_3:
+  type: "paper"
+  item_name: "<#11f52c>קסדת ברקת"
+  item_model: tiger_beach:armor/emerald/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.75
+      operation: add_number
+
+emerald_chestplate_3:
+  type: "paper"
+  item_name: "<#11f52c>שריון ברקת"
+  item_model: tiger_beach:armor/emerald/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.75
+      operation: add_number
+
+emerald_leggings_3:
+  type: "paper"
+  item_name: "<#11f52c>מכנסי ברקת"
+  item_model: tiger_beach:armor/emerald/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.75
+      operation: add_number
+
+emerald_boots_3:
+  type: "paper"
+  item_name: "<#11f52c>נעלי ברקת"
+  item_model: tiger_beach:armor/emerald/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 7.75
+      operation: add_number
+
+
+
+emerald_helmet_4:
+  type: "paper"
+  item_name: "<#11f52c>קסדת ברקת"
+  item_model: tiger_beach:armor/emerald/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.0
+      operation: add_number
+
+emerald_chestplate_4:
+  type: "paper"
+  item_name: "<#11f52c>שריון ברקת"
+  item_model: tiger_beach:armor/emerald/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.0
+      operation: add_number
+
+emerald_leggings_4:
+  type: "paper"
+  item_name: "<#11f52c>מכנסי ברקת"
+  item_model: tiger_beach:armor/emerald/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.0
+      operation: add_number
+
+emerald_boots_4:
+  type: "paper"
+  item_name: "<#11f52c>נעלי ברקת"
+  item_model: tiger_beach:armor/emerald/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:emerald
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 8.0
+      operation: add_number
+
+diamond_helmet_4:
+  type: "paper"
+  item_name: "<#11daf5>קסדת יהלום"
+  item_model: tiger_beach:armor/diamond/helmet
+  equippable:
+    slot: head
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>קסדה מגנה מהשמש!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 9.0
+      operation: add_number
+
+diamond_chestplate_4:
+  type: "paper"
+  item_name: "<#11daf5>שריון יהלום"
+  item_model: tiger_beach:armor/diamond/chestplate
+  equippable:
+    slot: chest
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>שריון מגן על הבטן!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 9.0
+      operation: add_number
+
+diamond_leggings_4:
+  type: "paper"
+  item_name: "<#11daf5>מכנסי יהלום"
+  item_model: tiger_beach:armor/diamond/legs
+  equippable:
+    slot: legs
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מפני נפילות אופניים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 9.0
+      operation: add_number
+
+diamond_boots_4:
+  type: "paper"
+  item_name: "<#11daf5>נעלי יהלום"
+  item_model: tiger_beach:armor/diamond/boots
+  equippable:
+    slot: feet
+    asset: tiger_beach:diamond
+  lore:
+    - "<gray>מגנים מצואת כלבים!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>חוזק הגנה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    armor:
+      slot: body
+      id: defence
+      amount: 9.0
+      operation: add_number

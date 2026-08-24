@@ -1,0 +1,99 @@
+
+sun_glasses:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: sun_glasses
+perry:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: perry
+
+
+kokop_leg:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: kokop_leg
+
+wind_charge:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: wind_charge
+
+sand_bucket:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: sand_bucket
+
+matka:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: matka
+
+puppet_stiven:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_stiven
+
+puppet_tiger:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_tiger
+
+puppet_kokop:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_kokoop
+
+puppet_tumba:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_tumba
+
+puppet_ariel:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_ariel
+
+puppet_itay:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_itay
+
+puppet_nitai:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_nitai
+
+puppet_fewmoment:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_fewmoment
+
+
+puppet_sionic:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: puppet_sionic
+
+
+
+bikini:
+  tags: ["cosmetic"]
+  item:
+    group: cosmetic
+    id: bikini

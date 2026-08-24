@@ -1,0 +1,8 @@
+shovel:
+  item:
+    item_definition_group: "shovel"
+    item_definition_id: "stone_shovel_1"
+  price:
+    - item_definition_group: "mineral"
+      item_definition_id: "stone"
+      amount: 2

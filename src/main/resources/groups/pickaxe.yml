@@ -1,0 +1,996 @@
+stone_pickaxe_1:
+  type: "paper"
+  item_name: "<#dbdbdb>מכוש אבן"
+  item_model: "tiger_beach:stone_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>1"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 2
+stone_pickaxe_2:
+  type: "paper"
+  item_name: "<#dbdbdb>מכוש אבן"
+  item_model: "tiger_beach:stone_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>2"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 3
+stone_pickaxe_3:
+  type: "paper"
+  item_name: "<#dbdbdb>מכוש אבן"
+  item_model: "tiger_beach:stone_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>3"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 4
+stone_pickaxe_4:
+  type: "paper"
+  item_name: "<#dbdbdb>מכוש אבן"
+  item_model: "tiger_beach:stone_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>4"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 5
+coal_pickaxe_1:
+  type: "paper"
+  item_name: "<#6b6b6b>מכוש פחם"
+  item_model: "tiger_beach:coal_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>5"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 21
+coal_pickaxe_2:
+  type: "paper"
+  item_name: "<#6b6b6b>מכוש פחם"
+  item_model: "tiger_beach:coal_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>6"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 25
+coal_pickaxe_3:
+  type: "paper"
+  item_name: "<#6b6b6b>מכוש פחם"
+  item_model: "tiger_beach:coal_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>7"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 30
+coal_pickaxe_4:
+  type: "paper"
+  item_name: "<#6b6b6b>מכוש פחם"
+  item_model: "tiger_beach:coal_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>8"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 35
+coal_pickaxe_5:
+  type: "paper"
+  item_name: "<#6b6b6b>מכוש פחם"
+  item_model: "tiger_beach:coal_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>9"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 38
+
+copper_pickaxe_1:
+  type: "paper"
+  item_name: "<#ffb39c>מכוש נחושת"
+  item_model: "tiger_beach:copper_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>10"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 45
+copper_pickaxe_2:
+  type: "paper"
+  item_name: "<#ffb39c>מכוש נחושת"
+  item_model: "tiger_beach:copper_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>11"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 48
+copper_pickaxe_3:
+  type: "paper"
+  item_name: "<#ffb39c>מכוש נחושת"
+  item_model: "tiger_beach:copper_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>12"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 50
+copper_pickaxe_4:
+  type: "paper"
+  item_name: "<#ffb39c>מכוש נחושת"
+  item_model: "tiger_beach:copper_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>13"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 52
+copper_pickaxe_5:
+  type: "paper"
+  item_name: "<#ffb39c>מכוש נחושת"
+  item_model: "tiger_beach:copper_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>14"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 55
+
+iron_pickaxe_1:
+  type: "paper"
+  item_name: "<#f2f2f2>מכוש ברזל"
+  item_model: "tiger_beach:iron_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>15"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 60
+iron_pickaxe_2:
+  type: "paper"
+  item_name: "<#f2f2f2>מכוש ברזל"
+  item_model: "tiger_beach:iron_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>16"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 65
+iron_pickaxe_3:
+  type: "paper"
+  item_name: "<#f2f2f2>מכוש ברזל"
+  item_model: "tiger_beach:iron_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>17"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 68
+iron_pickaxe_4:
+  type: "paper"
+  item_name: "<#f2f2f2>מכוש ברזל"
+  item_model: "tiger_beach:iron_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>18"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 70
+iron_pickaxe_5:
+  type: "paper"
+  item_name: "<#f2f2f2>מכוש ברזל"
+  item_model: "tiger_beach:iron_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>19"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 75
+
+gold_pickaxe_1:
+  type: "paper"
+  item_name: "<#ffdd00>מכוש זהב"
+  item_model: "tiger_beach:gold_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>20"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 80
+gold_pickaxe_2:
+  type: "paper"
+  item_name: "<#ffdd00>מכוש זהב"
+  item_model: "tiger_beach:gold_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>21"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 83
+gold_pickaxe_3:
+  type: "paper"
+  item_name: "<#ffdd00>מכוש זהב"
+  item_model: "tiger_beach:gold_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>22"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 85
+gold_pickaxe_4:
+  type: "paper"
+  item_name: "<#ffdd00>מכוש זהב"
+  item_model: "tiger_beach:gold_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>23"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 88
+gold_pickaxe_5:
+  type: "paper"
+  item_name: "<#ffdd00>מכוש זהב"
+  item_model: "tiger_beach:gold_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>24"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 90
+
+lapis_pickaxe_1:
+  type: "paper"
+  item_name: "<#2696ff>מכוש ספיר"
+  item_model: "tiger_beach:lapis_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>25"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 95
+lapis_pickaxe_2:
+  type: "paper"
+  item_name: "<#2696ff>מכוש ספיר"
+  item_model: "tiger_beach:lapis_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>26"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 100
+lapis_pickaxe_3:
+  type: "paper"
+  item_name: "<#2696ff>מכוש ספיר"
+  item_model: "tiger_beach:lapis_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>27"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 105
+lapis_pickaxe_4:
+  type: "paper"
+  item_name: "<#2696ff>מכוש ספיר"
+  item_model: "tiger_beach:lapis_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>28"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 110
+lapis_pickaxe_5:
+  type: "paper"
+  item_name: "<#2696ff>מכוש ספיר"
+  item_model: "tiger_beach:lapis_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 115
+
+amethyst_pickaxe_1:
+  type: "paper"
+  item_name: "<#ff85f3>מכוש אחלמה"
+  item_model: "tiger_beach:amethyst_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 120
+amethyst_pickaxe_2:
+  type: "paper"
+  item_name: "<#ff85f3>מכוש אחלמה"
+  item_model: "tiger_beach:amethyst_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 125
+amethyst_pickaxe_3:
+  type: "paper"
+  item_name: "<#ff85f3>מכוש אחלמה"
+  item_model: "tiger_beach:amethyst_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 130
+amethyst_pickaxe_4:
+  type: "paper"
+  item_name: "<#ff85f3>מכוש אחלמה"
+  item_model: "tiger_beach:amethyst_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>33"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 135
+amethyst_pickaxe_5:
+  type: "paper"
+  item_name: "<#ff85f3>מכוש אחלמה"
+  item_model: "tiger_beach:amethyst_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>34"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 140
+amethyst_pickaxe_6:
+  type: "paper"
+  item_name: "<#ff85f3>מכוש אחלמה"
+  item_model: "tiger_beach:amethyst_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>6"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>35"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 145
+emerald_pickaxe_1:
+  type: "paper"
+  item_name: "<#11f52c>מכוש ברקת"
+  item_model: "tiger_beach:emerald_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>36"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 145
+emerald_pickaxe_2:
+  type: "paper"
+  item_name: "<#11f52c>מכוש ברקת"
+  item_model: "tiger_beach:emerald_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>37"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 145
+emerald_pickaxe_3:
+  type: "paper"
+  item_name: "<#11f52c>מכוש ברקת"
+  item_model: "tiger_beach:emerald_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>38"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 145
+emerald_pickaxe_4:
+  type: "paper"
+  item_name: "<#11f52c>מכוש ברקת"
+  item_model: "tiger_beach:emerald_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>39"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 46
+emerald_pickaxe_5:
+  type: "paper"
+  item_name: "<#11f52c>מכוש ברקת"
+  item_model: "tiger_beach:emerald_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>40"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 47
+emerald_pickaxe_6:
+  type: "paper"
+  item_name: "<#11f52c>מכוש ברקת"
+  item_model: "tiger_beach:emerald_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>6"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>41"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 48
+emerald_pickaxe_7:
+  type: "paper"
+  item_name: "<#11f52c>מכוש ברקת"
+  item_model: "tiger_beach:emerald_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>7"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>42"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 49
+diamond_pickaxe_1:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>43"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 50
+diamond_pickaxe_2:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>44"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 51
+diamond_pickaxe_3:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>45"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 52
+diamond_pickaxe_4:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>46"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 53
+diamond_pickaxe_5:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>5"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>47"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 54
+diamond_pickaxe_6:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>6"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>48"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 55
+diamond_pickaxe_7:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>7"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>49"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 56
+diamond_pickaxe_8:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>8"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>50"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 57
+diamond_pickaxe_9:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>9"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>51"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 150
+diamond_pickaxe_10:
+  type: "paper"
+  item_name: "<#11daf5>מכוש יהלום"
+  item_model: "tiger_beach:diamond_pickaxe"
+  lore:
+    - "<gray>מכוש מיועד לחציבת מינרלים"
+    - "<gray>רמה<dark_gray>: <#fccd49>10"
+    - "<gray>מהירות חציבה<dark_gray>: <#fccd49>52"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  tool:
+    rules:
+      - blocks: "correct_for_pickaxe"
+        correct_for_drops: true
+    default_mining_speed: 59

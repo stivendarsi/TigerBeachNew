@@ -1,0 +1,8 @@
+steak:
+  item:
+    item_definition_group: "food"
+    item_definition_id: "steak"
+  price:
+    - item_definition_group: "mineral"
+      item_definition_id: "stone"
+      amount: 2

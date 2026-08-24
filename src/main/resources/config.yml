@@ -1,0 +1,24 @@
+join_screen: ""
+messages:
+  reload:  "<green>נטען מחדש!"
+rarity:
+  90: "<g:rarity_common>"
+  70: "<g:rarity_rare>"
+  50: "<g:rarity_epic>"
+  30: "<g:rarity_legendary>"
+  10: "<g:rarity_tiger>"
+trade:
+  cooldown: 5
+
+debug: false
+
+tool_block_tags:
+  correct_for_pickaxe: [
+    "stone","cobblestone","coal_ore","coal_block","iron_ore","iron_block",
+    "copper_ore","copper_block","gold_ore","gold_block","emerald_ore","emerald_block",
+    "diamond_ore","diamond_block", "amethyst_block", "lapis_ore","lapis_block" ]
+
+database:
+  username: ""
+  password: ""
+  jdbc-url: ""

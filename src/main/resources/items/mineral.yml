@@ -1,0 +1,378 @@
+stone:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "stone"
+  next:
+    item_definition_id: "compressed_stone"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "stone"
+      item_definition_group: "mineral"
+
+compressed_stone:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_stone"
+  next:
+    item_definition_id: "compressed_stone"
+    item_definition_group: "mineral"
+  price: []
+
+
+coal:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "coal"
+  next:
+    item_definition_id: "coal_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "coal"
+      item_definition_group: "mineral"
+
+coal_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "coal_block"
+  next:
+    item_definition_id: "compressed_coal_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "coal_block"
+      item_definition_group: "mineral"
+
+compressed_coal_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_coal_block"
+  next:
+    item_definition_id: "compressed_coal_block"
+    item_definition_group: "mineral"
+  price: []
+
+
+copper:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "copper"
+  next:
+    item_definition_id: "copper_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "copper"
+      item_definition_group: "mineral"
+
+copper_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "copper_block"
+  next:
+    item_definition_id: "compressed_copper_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "copper_block"
+      item_definition_group: "mineral"
+
+compressed_copper_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_copper_block"
+  next:
+    item_definition_id: "compressed_copper_block"
+    item_definition_group: "mineral"
+  price: []
+
+
+iron:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "iron"
+  next:
+    item_definition_id: "iron_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "iron"
+      item_definition_group: "mineral"
+
+iron_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "iron_block"
+  next:
+    item_definition_id: "compressed_iron_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "iron_block"
+      item_definition_group: "mineral"
+
+compressed_iron_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_iron_block"
+  next:
+    item_definition_id: "compressed_iron_block"
+    item_definition_group: "mineral"
+  price: []
+
+gold:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "gold"
+  next:
+    item_definition_id: "gold_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "gold"
+      item_definition_group: "mineral"
+
+gold_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "gold_block"
+  next:
+    item_definition_id: "compressed_gold_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "gold_block"
+      item_definition_group: "mineral"
+
+compressed_gold_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_gold_block"
+  next:
+    item_definition_id: "compressed_gold_block"
+    item_definition_group: "mineral"
+  price: []
+
+lapis:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "lapis"
+  next:
+    item_definition_id: "lapis_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "lapis"
+      item_definition_group: "mineral"
+
+lapis_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "lapis_block"
+  next:
+    item_definition_id: "compressed_lapis_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "lapis_block"
+      item_definition_group: "mineral"
+
+compressed_lapis_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_lapis_block"
+  next:
+    item_definition_id: "super_compressed_lapis_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 10
+      item_definition_id: "compressed_lapis_block"
+      item_definition_group: "mineral"
+
+super_compressed_lapis_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "super_compressed_lapis_block"
+  next:
+    item_definition_id: "super_compressed_lapis_block"
+    item_definition_group: "mineral"
+  price: []
+
+amethyst:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "amethyst"
+  next:
+    item_definition_id: "amethyst_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "amethyst"
+      item_definition_group: "mineral"
+
+amethyst_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "amethyst_block"
+  next:
+    item_definition_id: "compressed_amethyst_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "amethyst_block"
+      item_definition_group: "mineral"
+
+compressed_amethyst_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_amethyst_block"
+  next:
+    item_definition_id: "super_compressed_amethyst_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 12
+      item_definition_id: "compressed_amethyst_block"
+      item_definition_group: "mineral"
+
+super_compressed_amethyst_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "super_compressed_amethyst_block"
+  next:
+    item_definition_id: "super_compressed_amethyst_block"
+    item_definition_group: "mineral"
+  price: []
+
+emerald:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "emerald"
+  next:
+    item_definition_id: "emerald_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "emerald"
+      item_definition_group: "mineral"
+
+emerald_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "emerald_block"
+  next:
+    item_definition_id: "compressed_emerald_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "emerald_block"
+      item_definition_group: "mineral"
+
+compressed_emerald_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_emerald_block"
+  next:
+    item_definition_id: "super_compressed_emerald_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_emerald_block"
+      item_definition_group: "mineral"
+
+super_compressed_emerald_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "super_compressed_emerald_block"
+  next:
+    item_definition_id: "super_compressed_emerald_block"
+    item_definition_group: "mineral"
+  price: []
+
+diamond:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "diamond"
+  next:
+    item_definition_id: "diamond_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 9
+      item_definition_id: "diamond"
+      item_definition_group: "mineral"
+
+diamond_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "diamond_block"
+  next:
+    item_definition_id: "compressed_diamond_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 32
+      item_definition_id: "diamond_block"
+      item_definition_group: "mineral"
+
+compressed_diamond_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "compressed_diamond_block"
+  next:
+    item_definition_id: "super_compressed_diamond_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 16
+      item_definition_id: "compressed_diamond_block"
+      item_definition_group: "mineral"
+
+super_compressed_diamond_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "super_compressed_diamond_block"
+  next:
+    item_definition_id: "mega_compressed_diamond_block"
+    item_definition_group: "mineral"
+  price:
+    - amount: 8
+      item_definition_id: "super_compressed_diamond_block"
+      item_definition_group: "mineral"
+
+mega_compressed_diamond_block:
+  tags: ["conversion", "mine_reward"]
+  item:
+    group: "mineral"
+    id: "mega_compressed_diamond_block"
+  next:
+    item_definition_id: "mega_compressed_diamond_block"
+    item_definition_group: "mineral"
+  price: []

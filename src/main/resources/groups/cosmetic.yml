@@ -1,0 +1,111 @@
+
+sun_glasses:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#ffed9c:#fffbcf:#ffed9c>משקפי שמש"
+  lore:
+    - "<gray>השמש מסנוורת אותי!"
+  max_stack_size: 5
+  item_model: tiger_beach:cosmetics/sun_glasses
+  equippable:
+    slot: HEAD
+    camera_overlay: tiger_beach:glasses
+
+
+
+perry:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#72f7ec:#b0fbff:#72f7ec>פרי הפלטיפוס"
+  lore:
+    - "<gray>הברווזן שלא תמצאו על החוף..."
+  max_stack_size: 5
+  item_model: tiger_beach:cosmetics/perry
+
+
+
+brush:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#fc8a38:#fca84e:#fc8a38>מיץ תפוזים"
+  lore:
+    - "<gray>הממ... תפוזים..."
+  item_model: iron_shovel
+  consumable:
+    consume_seconds: 900000
+    animation: BRUSH
+
+sionic_leg:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#ebaf8f:#edd0a8:#ebaf8f>הרגל של קוקופ"
+  lore:
+    - "<gray>איכס"
+  max_stack_size: 5
+  item_model: tiger_beach:cosmetics/kokop_leg
+  equippable:
+    slot: FEET
+  attribute:
+    movement_speed:
+      slot: feet
+      id: sionic_leg_speed
+      amount: 0.2
+      operation: ADD_NUMBER
+
+kokop_leg:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#ebaf8f:#edd0a8:#ebaf8f>הרגל של קוקופ"
+  lore:
+    - "<gray>איכס"
+  max_stack_size: 5
+  item_model: tiger_beach:cosmetics/kokop_leg
+  equippable:
+    slot: FEET
+    asset: tiger_beach:kokop
+  attribute:
+    max_health:
+      slot: feet
+      id: kokop_leg_health
+      amount: 1
+      operation: ADD_NUMBER
+    scale:
+      slot: feet
+      id: kokop_leg_scale
+      amount: 0.2
+      operation: ADD_NUMBER
+
+wind_charge:
+  type: wind_charge
+  clear_data: true
+  item_name: "<gradient:#c9e2f0:#f5fdff:#c9e2f0>מטען רוח"
+  lore:
+    - "<gray>בוינג"
+  max_stack_size: 64
+  use_cooldown: 5
+  item_model: wind_charge
+
+sand_bucket:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#c9e2f0:#f5fdff:#c9e2f0>דלי חול"
+  lore:
+    - "<gray>בוינג"
+  max_stack_size: 64
+  use_cooldown: 5
+  item_model: tiger_beach:cosmetics/sand_bucket
+
+matka:
+  type: paper
+  clear_data: true
+  item_name: "<gradient:#ffbe7d:#fac893:#ffbe7d>מטקה"
+  lore:
+    - "<gray>תחבוט בשחקנים"
+  max_stack_size: 2
+  item_model: tiger_beach:cosmetics/matka
+  enchantment_glint_override: false
+  tooltip_display:
+    hidden_components:
+      - "enchantments"
+  enchantments:
+    knockback: 1

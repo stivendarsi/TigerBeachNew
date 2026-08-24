@@ -1,0 +1,936 @@
+stone_sword_1:
+  type: "paper"
+  item_name: "<#dbdbdb>חרב אבן"
+  item_model: tiger_beach:sword/stone
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>1"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 1
+      operation: add_number
+
+stone_sword_2:
+  type: "paper"
+  item_name: "<#dbdbdb>חרב אבן"
+  item_model: tiger_beach:sword/stone
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>2"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 1.20
+      operation: add_number
+
+stone_sword_3:
+  type: "paper"
+  item_name: "<#dbdbdb>חרב אבן"
+  item_model: tiger_beach:sword/stone
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>3"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 1.40
+      operation: add_number
+
+stone_sword_4:
+  type: "paper"
+  item_name: "<#dbdbdb>חרב אבן"
+  item_model: tiger_beach:sword/stone
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>4"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 1.60
+      operation: add_number
+
+coal_sword_1:
+  type: "paper"
+  item_name: "<#6b6b6b>חרב פחם"
+  item_model: tiger_beach:sword/coal
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>5"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 1.8
+      operation: add_number
+
+coal_sword_2:
+  type: "paper"
+  item_name: "<#6b6b6b>חרב פחם"
+  item_model: tiger_beach:sword/coal
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>6"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 2.0
+      operation: add_number
+
+coal_sword_3:
+  type: "paper"
+  item_name: "<#6b6b6b>חרב פחם"
+  item_model: tiger_beach:sword/coal
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>7"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 2.2
+      operation: add_number
+
+coal_sword_4:
+  type: "paper"
+  item_name: "<#6b6b6b>חרב פחם"
+  item_model: tiger_beach:sword/coal
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>8"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 2.4
+      operation: add_number
+
+copper_sword_1:
+  type: "paper"
+  item_name: "<#ffb39c>חרב נחושת"
+  item_model: tiger_beach:sword/copper
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>9"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 2.6
+      operation: add_number
+
+copper_sword_2:
+  type: "paper"
+  item_name: "<#ffb39c>חרב נחושת"
+  item_model: tiger_beach:sword/copper
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>10"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 2.8
+      operation: add_number
+
+copper_sword_3:
+  type: "paper"
+  item_name: "<#ffb39c>חרב נחושת"
+  item_model: tiger_beach:sword/copper
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>11"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 3.0
+      operation: add_number
+
+copper_sword_4:
+  type: "paper"
+  item_name: "<#ffb39c>חרב נחושת"
+  item_model: tiger_beach:sword/copper
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>12"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 3.2
+      operation: add_number
+
+iron_sword_1:
+  type: "paper"
+  item_name: "<#f2f2f2>חרב ברזל"
+  item_model: tiger_beach:sword/iron
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>13"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 3.4
+      operation: add_number
+
+iron_sword_2:
+  type: "paper"
+  item_name: "<#f2f2f2>חרב ברזל"
+  item_model: tiger_beach:sword/iron
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>14"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 3.6
+      operation: add_number
+
+iron_sword_3:
+  type: "paper"
+  item_name: "<#f2f2f2>חרב ברזל"
+  item_model: tiger_beach:sword/iron
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>15"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 3.8
+      operation: add_number
+
+iron_sword_4:
+  type: "paper"
+  item_name: "<#f2f2f2>חרב ברזל"
+  item_model: tiger_beach:sword/iron
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>16"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 4.0
+      operation: add_number
+
+
+gold_sword_1:
+  type: "paper"
+  item_name: "<#ffdd00>חרב זהב"
+  item_model: tiger_beach:sword/gold
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>17"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 4.2
+      operation: add_number
+
+gold_sword_2:
+  type: "paper"
+  item_name: "<#ffdd00>חרב זהב"
+  item_model: tiger_beach:sword/gold
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>18"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 4.4
+      operation: add_number
+
+gold_sword_3:
+  type: "paper"
+  item_name: "<#ffdd00>חרב זהב"
+  item_model: tiger_beach:sword/gold
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>19"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 4.6
+      operation: add_number
+
+gold_sword_4:
+  type: "paper"
+  item_name: "<#ffdd00>חרב זהב"
+  item_model: tiger_beach:sword/gold
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>20"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 4.8
+      operation: add_number
+
+lapis_sword_1:
+  type: "paper"
+  item_name: "<#2696ff>חרב ספיר"
+  item_model: tiger_beach:sword/lapis
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>21"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 5.0
+      operation: add_number
+
+lapis_sword_2:
+  type: "paper"
+  item_name: "<#2696ff>חרב ספיר"
+  item_model: tiger_beach:sword/lapis
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>22"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 5.2
+      operation: add_number
+
+lapis_sword_3:
+  type: "paper"
+  item_name: "<#2696ff>חרב ספיר"
+  item_model: tiger_beach:sword/lapis
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>23"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 5.4
+      operation: add_number
+
+lapis_sword_4:
+  type: "paper"
+  item_name: "<#2696ff>חרב ספיר"
+  item_model: tiger_beach:sword/lapis
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>24"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 5.6
+      operation: add_number
+
+amethyst_sword_1:
+  type: "paper"
+  item_name: "<#ff85f3>חרב אחלמה"
+  item_model: tiger_beach:sword/amethyst
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>25"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 5.8
+      operation: add_number
+
+amethyst_sword_2:
+  type: "paper"
+  item_name: "<#ff85f3>חרב אחלמה"
+  item_model: tiger_beach:sword/amethyst
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>26"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 6.0
+      operation: add_number
+
+amethyst_sword_3:
+  type: "paper"
+  item_name: "<#ff85f3>חרב אחלמה"
+  item_model: tiger_beach:sword/amethyst
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>27"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 6.2
+      operation: add_number
+
+amethyst_sword_4:
+  type: "paper"
+  item_name: "<#ff85f3>חרב אחלמה"
+  item_model: tiger_beach:sword/amethyst
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>28"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 6.4
+      operation: add_number
+
+emerald_sword_1:
+  type: "paper"
+  item_name: "<#11f52c>חרב ברקת"
+  item_model: tiger_beach:sword/emerald
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>29"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 6.6
+      operation: add_number
+
+emerald_sword_2:
+  type: "paper"
+  item_name: "<#11f52c>חרב ברקת"
+  item_model: tiger_beach:sword/emerald
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>30"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 6.8
+      operation: add_number
+
+emerald_sword_3:
+  type: "paper"
+  item_name: "<#11f52c>חרב ברקת"
+  item_model: tiger_beach:sword/emerald
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>31"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 7.0
+      operation: add_number
+
+emerald_sword_4:
+  type: "paper"
+  item_name: "<#11f52c>חרב ברקת"
+  item_model: tiger_beach:sword/emerald
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>32"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 7.2
+      operation: add_number
+
+diamond_sword_1:
+  type: "paper"
+  item_name: "<#11daf5>חרב יהלום"
+  item_model: tiger_beach:sword/diamond
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>1"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>33"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 7.4
+      operation: add_number
+
+diamond_sword_2:
+  type: "paper"
+  item_name: "<#11daf5>חרב יהלום"
+  item_model: tiger_beach:sword/diamond
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>2"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>34"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 7.6
+      operation: add_number
+
+diamond_sword_3:
+  type: "paper"
+  item_name: "<#11daf5>חרב יהלום"
+  item_model: tiger_beach:sword/diamond
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>3"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>35"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 7.8
+      operation: add_number
+
+diamond_sword_4:
+  type: "paper"
+  item_name: "<#11daf5>חרב יהלום"
+  item_model: tiger_beach:sword/diamond
+  lore:
+    - "<gray>החרב היא כלי הלחימה בשרת!"
+    - "<gray>רמה<dark_gray>: <#fccd49>4"
+    - "<gray>עוצמת תקיפה<dark_gray>: <#fccd49>36"
+    - ""
+    - "<gray>\uEBA1 + \uEBA2 :כדי לשדרג"
+    - ""
+    - "<!shadow><rarity>"
+  max_stack_size: 1
+  clear_data: true
+  attribute:
+    attack_speed:
+      slot: mainhand
+      id: damage
+      amount: -2.4
+      operation: add_number
+    attack_damage:
+      slot: mainhand
+      id: damage
+      amount: 8.0
+      operation: add_number
