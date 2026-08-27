@@ -16,10 +16,10 @@ stone:
   actionbar:
     enabled: true
     range: 5
-    message: '<green> זמן שנשאר: <gold><time_left></gold> | נשארו <percent_left>'
+    message: '<gradient:#baa4a4:#dbdbdb:#baa4a4>זמן שנשאר: <#ffcc00><time_left></#ffcc00> | נשארו <percent_left></gradient:#baa4a4:#dbdbdb:#baa4a4>'
   reset:
-    seconds: 60
-    percent: 10
+    seconds: 30
+    percent: 30
   blocks:
     minecraft:cobblestone:
       percent: 50
@@ -46,12 +46,12 @@ coal:
       z: -70
     world: world
   requirements:
-    weight: 4
+    weight: 5
     item_definition_group: pickaxe
   actionbar:
     enabled: true
     range: 5
-    message: '<green> זמן שנשאר: <gold><time_left></gold> | נשארו <percent_left>'
+    message: '<gradient:#6b6b6b:#dbdbdb:#6b6b6b>זמן שנשאר: <#ffcc00><time_left></#ffcc00> | נשארו <percent_left></gradient:#6b6b6b:#dbdbdb:#6b6b6b>'
   reset:
     seconds: 60.0
     percent: 10
@@ -82,25 +82,25 @@ iron:
       z: -11
     world: world
   requirements:
-    weight: 14
+    weight: 15
     item_definition_group: pickaxe
   actionbar:
     enabled: true
     range: 5
-    message: '<green> זמן שנשאר: <gold><time_left></gold> | נשארו <percent_left>'
+    message: '<gradient:#c7dbff:#f2f2f2:#c7dbff>זמן שנשאר: <#ffcc00><time_left></#ffcc00> | נשארו <percent_left></gradient:#c7dbff:#f2f2f2:#c7dbff>'
   reset:
     seconds: 60
     percent: 10
   blocks:
     minecraft:iron_ore:
-      percent: 80
+      percent: 70
       rewards:
         - amount: 1
           chance: 100
           item_definition_id: iron
           item_definition_group: mineral
     minecraft:iron_block:
-      percent: 20
+      percent: 30
       rewards:
         - amount: 1
           chance: 100
@@ -118,25 +118,25 @@ copper:
       z: -40
     world: world
   requirements:
-    weight: 9
+    weight: 10
     item_definition_group: pickaxe
   actionbar:
     enabled: true
     range: 5
-    message: '<green> זמן שנשאר: <gold><time_left></gold> | נשארו <percent_left>'
+    message: '<gradient:#f57656:#ffb39c:#f57656>זמן שנשאר: <#ffcc00><time_left></#ffcc00> | נשארו <percent_left></gradient:#f57656:#ffb39c:#f57656>'
   reset:
     seconds: 60
     percent: 10
   blocks:
     minecraft:copper_ore:
-      percent: 80
+      percent: 70
       rewards:
         - amount: 1
           chance: 100
           item_definition_id: copper
           item_definition_group: mineral
     minecraft:waxed_copper_block:
-      percent: 20
+      percent: 30
       rewards:
         - amount: 1
           chance: 100
@@ -154,25 +154,25 @@ gold:
       z: 21
     world: world
   requirements:
-    weight: 19
+    weight: 20
     item_definition_group: pickaxe
   actionbar:
     enabled: true
     range: 5
-    message: '<green> זמן שנשאר: <gold><time_left></gold> | נשארו <percent_left>'
+    message: '<gradient:#e69109:#ffdd00:#e69109>זמן שנשאר: <#ffcc00><time_left></#ffcc00> | נשארו <percent_left></gradient:#e69109:#ffdd00:#e69109>'
   reset:
     seconds: 60
     percent: 10
   blocks:
     minecraft:gold_ore:
-      percent: 80
+      percent: 70
       rewards:
         - amount: 1
           chance: 100
           item_definition_id: gold
           item_definition_group: mineral
     minecraft:gold_block:
-      percent: 20
+      percent: 30
       rewards:
         - amount: 1
           chance: 100
@@ -190,7 +190,7 @@ lapis:
       z: 48
     world: world
   requirements:
-    weight: 24
+    weight: 25
     item_definition_group: pickaxe
   actionbar:
     enabled: true
@@ -226,7 +226,7 @@ amethyst:
       z: 22
     world: world
   requirements:
-    weight: 29
+    weight: 30
     item_definition_group: pickaxe
   actionbar:
     enabled: true
@@ -259,7 +259,7 @@ emerald:
       z: -11
     world: world
   requirements:
-    weight: 35
+    weight: 36
     item_definition_group: pickaxe
   actionbar:
     enabled: true
@@ -270,22 +270,18 @@ emerald:
     percent: 10
   blocks:
     minecraft:emerald_ore:
-      percent: 80
+      percent: 85
       rewards:
         - amount: 1
           chance: 100
           item_definition_id: emerald
           item_definition_group: mineral
     minecraft:emerald_block:
-      percent: 20
+      percent: 15
       rewards:
         - amount: 1
-          chance: 50
-          item_definition_id: emerald
-          item_definition_group: mineral
-        - amount: 5
-          chance: 50
-          item_definition_id: emerald
+          chance: 100
+          item_definition_id: emerald_block
           item_definition_group: mineral
 diamond:
   region:
@@ -299,27 +295,27 @@ diamond:
       z: -42
     world: world
   requirements:
-    weight: 42
+    weight: 43
     item_definition_group: pickaxe
   actionbar:
     enabled: true
     range: 5
-    message: '<green> זמן שנשאר: <gold><time_left></gold> | נשארו <percent_left>'
+    message: '<gradient:#1ebbeb:#11daf5:#1ebbeb>זמן שנשאר: <#ffcc00><time_left></#ffcc00> | נשארו <percent_left></gradient:#1ebbeb:#11daf5:#1ebbeb>'
   reset:
     seconds: 60
     percent: 10
   blocks:
     minecraft:diamond_ore:
-      percent: 80
+      percent: 85
       rewards:
         - amount: 1
           chance: 100
-          item_definition_id: stone
+          item_definition_id: diamond
           item_definition_group: mineral
     minecraft:diamond_block:
-      percent: 20
+      percent: 15
       rewards:
-        - amount: 4
+        - amount: 1
           chance: 100
-          item_definition_id: diamond
+          item_definition_id: diamond_block
           item_definition_group: mineral

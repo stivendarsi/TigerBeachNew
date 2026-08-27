@@ -1,6 +1,8 @@
 package me.stivendarsi.tigerBeach.mine.events;
 
 import io.papermc.paper.persistence.PersistentDataContainerView;
+import io.papermc.paper.registry.RegistryKey;
+import io.papermc.paper.registry.set.RegistryKeySet;
 import me.stivendarsi.tigerBeach.itemmanager.itemdefinition.ItemDefinitionSection;
 import me.stivendarsi.tigerBeach.mine.Mine;
 import net.kyori.adventure.key.Key;
@@ -8,10 +10,13 @@ import net.kyori.adventure.sound.Sound;
 import org.bukkit.Location;
 import org.bukkit.Statistic;
 import org.bukkit.block.Block;
+import org.bukkit.block.data.BlockData;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.block.BlockExpEvent;
+import org.bukkit.event.player.PlayerItemBreakEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 
@@ -20,6 +25,7 @@ import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
 public class MiningEventHandler implements Listener {
     @EventHandler
     public void mine(BlockBreakEvent event) {
+
         Block block = event.getBlock();
         Location location = block.getLocation();
         Mine mine = mainHandler().minesHandler().getMineByPosition(location);
