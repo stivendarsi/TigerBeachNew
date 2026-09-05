@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class AisleMenuHolder implements InventoryHolder {
 
@@ -27,7 +27,7 @@ public class AisleMenuHolder implements InventoryHolder {
     private final @NotNull Aisle aisle;
 
     public AisleMenuHolder(@NotNull Aisle aisle) {
-        this.inventory = plugin().getServer().createInventory(this, 27, MiniMessage.miniMessage().deserialize("<font:tiger_beach:beach><!shadow><white>\ue002\ue003"));
+        this.inventory = tigerBeachInstance().getServer().createInventory(this, 27, MiniMessage.miniMessage().deserialize("<font:tiger_beach:beach><!shadow><white>\ue002\ue003"));
         this.aisle = aisle;
 
         List<Product> products = new ArrayList<>(aisle.productMap().values());

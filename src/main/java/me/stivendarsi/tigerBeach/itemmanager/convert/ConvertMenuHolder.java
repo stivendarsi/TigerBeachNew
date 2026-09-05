@@ -25,7 +25,7 @@ public class ConvertMenuHolder implements InventoryHolder {
     // itemKey -> itemDefinitionGroup:itemDefinitionId
     public ConvertMenuHolder(@NotNull BeachUser beachUser, @NotNull ItemDefinitionSection itemDefinitionSection) {
         this.beachUser = beachUser;
-        this.inventory = TigerBeach.plugin().getServer().createInventory(this, 54, MiniMessage.miniMessage().deserialize("<font:tiger_beach:beach><!shadow><white>\ue002\ue001"));
+        this.inventory = TigerBeach.tigerBeachInstance().getServer().createInventory(this, 54, MiniMessage.miniMessage().deserialize("<font:tiger_beach:beach><!shadow><white>\ue002\ue001"));
 
         this.currentItem = itemDefinitionSection;
 

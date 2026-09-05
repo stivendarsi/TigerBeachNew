@@ -20,7 +20,7 @@ import org.jetbrains.annotations.Nullable;
 import java.io.File;
 import java.util.*;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class TreasureSystemHandler extends YamlConfigFile {
     private Set<BlockVector> blockLocations = new HashSet<>();
@@ -28,7 +28,7 @@ public class TreasureSystemHandler extends YamlConfigFile {
     private Map<UUID, DigProgression> playerProression = new HashMap<>();
 
     public TreasureSystemHandler() {
-        super(new File(plugin().getDataFolder(), "treasure.yml"));
+        super(new File(tigerBeachInstance().getDataFolder(), "treasure.yml"));
     }
 
     private BoundingBox treasureSpawnBoundingBox;

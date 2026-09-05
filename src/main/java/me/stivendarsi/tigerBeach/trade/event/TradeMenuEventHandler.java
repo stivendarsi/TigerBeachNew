@@ -13,7 +13,7 @@ import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.Nullable;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class TradeMenuEventHandler implements Listener {
     @EventHandler
@@ -107,11 +107,11 @@ public class TradeMenuEventHandler implements Listener {
         mainHandler().tradeHandler().finishTrade(tradeMenu.sender());
         if (tradeMenu.isSender(event.getPlayer().getUniqueId())) {
             if (receiver != null && receiver.getOpenInventory().getType() != InventoryType.CRAFTING) {
-                plugin().getServer().getScheduler().runTaskLater(plugin(), bukkitTask -> receiver.closeInventory(), 1);
+                tigerBeachInstance().getServer().getScheduler().runTaskLater(tigerBeachInstance(), bukkitTask -> receiver.closeInventory(), 1);
             }
         } else {
             if (sender != null && sender.getOpenInventory().getType() != InventoryType.CRAFTING) {
-                plugin().getServer().getScheduler().runTaskLater(plugin(), bukkitTask -> sender.closeInventory(), 1);
+                tigerBeachInstance().getServer().getScheduler().runTaskLater(tigerBeachInstance(), bukkitTask -> sender.closeInventory(), 1);
             }
         }
 

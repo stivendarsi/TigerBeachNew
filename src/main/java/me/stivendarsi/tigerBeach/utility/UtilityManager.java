@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class UtilityManager {
     private String joinScreenText;
@@ -26,17 +26,17 @@ public class UtilityManager {
     private boolean debug;
 
     public void load() {
-        this.reloadCommandMessage = plugin().getConfig().getString("messages.reload");
-        this.joinScreenText = plugin().getConfig().getString("join_screen");
+        this.reloadCommandMessage = tigerBeachInstance().getConfig().getString("messages.reload");
+        this.joinScreenText = tigerBeachInstance().getConfig().getString("join_screen");
 
-        this.debug = plugin().getConfig().getBoolean("debug");
+        this.debug = tigerBeachInstance().getConfig().getBoolean("debug");
 
-        for (String rarityName : plugin().getConfig().getConfigurationSection("rarity").getKeys(false)) {
-            String rarityString = plugin().getConfig().getString("rarity.%s".formatted(rarityName));
+        for (String rarityName : tigerBeachInstance().getConfig().getConfigurationSection("rarity").getKeys(false)) {
+            String rarityString = tigerBeachInstance().getConfig().getString("rarity.%s".formatted(rarityName));
             this.rarityMap.put(Integer.valueOf(rarityName), rarityString);
         }
-        for (String tag : plugin().getConfig().getConfigurationSection("tool_block_tags").getKeys(false)) {
-            List<String> blockIds = plugin().getConfig().getStringList("tool_block_tags.%s".formatted(tag));
+        for (String tag : tigerBeachInstance().getConfig().getConfigurationSection("tool_block_tags").getKeys(false)) {
+            List<String> blockIds = tigerBeachInstance().getConfig().getStringList("tool_block_tags.%s".formatted(tag));
 
             Registry<BlockType> blockTypes = RegistryAccess.registryAccess().getRegistry(RegistryKey.BLOCK);
 

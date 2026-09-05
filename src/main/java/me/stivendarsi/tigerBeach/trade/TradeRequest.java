@@ -4,7 +4,7 @@ import org.bukkit.entity.Player;
 
 import java.util.UUID;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class TradeRequest {
     private UUID sender;
@@ -19,8 +19,8 @@ public class TradeRequest {
     }
 
     public void acceptRequest() {
-        Player sender = plugin().getServer().getPlayer(this.sender);
-        Player receiver = plugin().getServer().getPlayer(this.receiver);
+        Player sender = tigerBeachInstance().getServer().getPlayer(this.sender);
+        Player receiver = tigerBeachInstance().getServer().getPlayer(this.receiver);
         if (sender == null || receiver == null) return;
         sender.openInventory(this.tradeMenu.getInventory());
         receiver.openInventory(this.tradeMenu.getInventory());

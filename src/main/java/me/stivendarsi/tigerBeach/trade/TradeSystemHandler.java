@@ -10,7 +10,7 @@ import org.bukkit.entity.Player;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class TradeSystemHandler {
     private final Map<UUID, Long> tradeCooldownMap = new HashMap<>();
@@ -23,7 +23,7 @@ public class TradeSystemHandler {
         this.tradeCooldownMap.clear();
         this.activeTrades.clear();
         this.pendingTrades.clear();
-        this.cooldown = plugin().getConfig().getDouble("trade.cooldown");
+        this.cooldown = tigerBeachInstance().getConfig().getDouble("trade.cooldown");
     }
 
     public boolean sendTradeRequest(Player sender, Player receiver) {

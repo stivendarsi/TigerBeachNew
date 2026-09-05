@@ -17,9 +17,9 @@ public class MineTimerFixed implements Consumer<BukkitTask> {
 
     @Override
     public void accept(BukkitTask bukkitTask) {
-        Mine mine = mainHandler().minesHandler().getMine(mineId);
-        if (mine != null) {
-            mine.fillMine();
+        MineData mineData = mainHandler().minesHandler().getMine(mineId);
+        if (mineData != null) {
+            mineData.fillMine();
         } else {
             bukkitTask.cancel();
         }

@@ -1,9 +1,7 @@
 package me.stivendarsi.tigerBeach.itemmanager.itemdefinition;
 
-import com.sk89q.worldedit.util.formatting.text.serializer.plain.PlainComponentSerializer;
 import io.papermc.paper.datacomponent.DataComponentTypes;
 import io.papermc.paper.datacomponent.item.ItemLore;
-import me.clip.placeholderapi.PlaceholderAPI;
 import me.stivendarsi.tigerBeach.itemmanager.groups.GroupsItemSection;
 import me.stivendarsi.tigerBeach.itemmanager.inventoryHandler.InventorySystemHandler;
 import me.stivendarsi.tigerBeach.itemmanager.itemdefinition.tags.ConversionTag;
@@ -11,15 +9,11 @@ import me.stivendarsi.tigerBeach.utility.PriceVariable;
 import net.kyori.adventure.key.Key;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextReplacementConfig;
-import net.kyori.adventure.text.minimessage.MiniMessage;
-import net.kyori.adventure.text.minimessage.tag.Tag;
-import net.kyori.adventure.text.minimessage.tag.resolver.TagResolver;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.persistence.PersistentDataType;
 import org.jetbrains.annotations.Nullable;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -115,28 +109,21 @@ public class ItemDefinitionSection {
     }
 
     public @Nullable ItemStack getItem() {
-        ItemStack itemStack = item.clone();
         if (this.tags.contains(ItemTag.PROGRESSION)) {
-            if (itemStack.hasData(DataComponentTypes.LORE)) {
-                GroupsItemSection section = mainHandler().itemGroupsManager().getItem(this.itemGroupName, this.itemId);
-                if (section == null) {
-                    return null;
-                }
-
-                TagResolver rarityResolver = TagResolver.builder().tag("rarity", (_, _) -> Tag.preProcessParsed(mainHandler().userHandler().getProgressionItemRarity(this.key()))).build();
-
-                List<Component> components = section.getLore().stream()
-                        .map(line -> {
-                         //   String afterPlaceholders = PlaceholderAPI.setPlaceholders(null, s);
-                            return MiniMessage.miniMessage().deserialize("<!i><white>" + line, rarityResolver);
-                        })
+            if (this.item.hasData(DataComponentTypes.LORE)) {
+                ItemLore lore = this.item.getData(DataComponentTypes.LORE);
+                TextReplacementConfig rarityReplacement = TextReplacementConfig.builder()
+                        .match("<rarity>")
+                        .replacement(mainHandler().userHandler().getProgressionItemRarity(this.key()))
+                        .build();
+                List<Component> newLore = lore.lines().stream()
+                        .map(component -> component.replaceText(rarityReplacement))
                         .toList();
 
-
-                itemStack.setData(DataComponentTypes.LORE, ItemLore.lore(components));
+                this.item.setData(DataComponentTypes.LORE, ItemLore.lore(newLore));
             }
         }
-        return itemStack;
+        return this.item.clone();
     }
 
     private List<PriceVariable> loadPriceVariable(List<Map<?, ?>> map) {

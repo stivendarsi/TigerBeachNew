@@ -22,11 +22,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.io.File;
 
 public final class TigerBeach extends JavaPlugin {
-    private static TigerBeach tigerBeachInstance;
+    private static TigerBeach plugin;
     private static HandlersManager mainHandler;
 
-    public static TigerBeach plugin() {
-        return tigerBeachInstance;
+    public static TigerBeach tigerBeachInstance() {
+        return plugin;
     }
 
     public static HandlersManager mainHandler() {
@@ -45,7 +45,7 @@ public final class TigerBeach extends JavaPlugin {
         this.loadDefaultYamlResources(new String[]{"inventory", "mines", "shop", "treasure"});
 
 
-        tigerBeachInstance = this;
+        plugin = this;
         mainHandler = new HandlersManager();
 
         if (Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI")) {

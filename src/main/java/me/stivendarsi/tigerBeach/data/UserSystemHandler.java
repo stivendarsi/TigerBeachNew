@@ -2,9 +2,8 @@ package me.stivendarsi.tigerBeach.data;
 
 import me.stivendarsi.tigerBeach.itemmanager.inventoryHandler.InventorySystemHandler;
 import net.kyori.adventure.key.Key;
+
 import org.jetbrains.annotations.Nullable;
-
-
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;

@@ -12,14 +12,14 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ItemType;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class MineBrowserMenu implements InventoryHolder {
 
     private final Inventory inventory;
 
     public MineBrowserMenu() {
-        this.inventory = plugin().getServer().createInventory(this, 54);
+        this.inventory = tigerBeachInstance().getServer().createInventory(this, 54);
         ItemStack border = ItemType.GRAY_STAINED_GLASS_PANE.createItemStack();
         border.setData(DataComponentTypes.TOOLTIP_DISPLAY, TooltipDisplay.tooltipDisplay().hideTooltip(true).build());
 

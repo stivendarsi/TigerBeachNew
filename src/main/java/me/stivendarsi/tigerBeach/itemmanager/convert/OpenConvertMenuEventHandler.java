@@ -26,6 +26,7 @@ public class OpenConvertMenuEventHandler implements Listener {
         PersistentDataContainerView pdc = itemStack.getPersistentDataContainer();
         if (!pdc.has(mainHandler().constants().conversion())) return;
 
+        player.updateInventory();
         BeachUser beachUser = mainHandler().userHandler().getUser(player.getUniqueId());
         if (beachUser == null) {
             player.sendRichMessage("<red>אופס! נראה שאתה לא קיים במערכת. נא לפתוח טיקט מיד!!");
@@ -47,14 +48,11 @@ public class OpenConvertMenuEventHandler implements Listener {
         if (event.getAction() == Action.PHYSICAL) return;
         if (event.getAction().isRightClick()) {
             player.openInventory(new ConvertMenuHolder(beachUser, itemDefinitionSection).getInventory());
-            return;
         } else if (event.getAction() == Action.LEFT_CLICK_BLOCK && pdc.has(mainHandler().constants().mineReward())) {
             // No menu convert
             if (player.hasPermission("beach.fastconvert")) beachUser.tryToUpgrade(player, itemDefinitionSection);
-            return;
         } else if (event.getAction() == Action.LEFT_CLICK_AIR && pdc.has(mainHandler().constants().mineReward())) {
             if (player.hasPermission("beach.fastconvert")) beachUser.tryToUpgrade(player, itemDefinitionSection);
-            return;
         }
     }
 }

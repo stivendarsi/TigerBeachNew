@@ -8,14 +8,14 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class ItemDefinitionSystemHandler {
     Map<String, ItemDefinitionGroup> groupMap = new HashMap<>();
 
     public void load(){
         this.groupMap.clear();
-        File itemsFolder = new File(plugin().getDataFolder(), "items");
+        File itemsFolder = new File(tigerBeachInstance().getDataFolder(), "items");
         if (!itemsFolder.isDirectory()) return;
         File[] files = itemsFolder.listFiles();
         if (files == null) return;

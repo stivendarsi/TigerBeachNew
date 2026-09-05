@@ -22,7 +22,7 @@ import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class TradeMenuHolder implements InventoryHolder {
     private final Inventory inventory;
@@ -44,7 +44,7 @@ public class TradeMenuHolder implements InventoryHolder {
     public TradeMenuHolder(UUID sender, UUID receiver) {
         this.sender = sender;
         this.receiver = receiver;
-        this.inventory = plugin().getServer().createInventory(this, 54);
+        this.inventory = tigerBeachInstance().getServer().createInventory(this, 54);
         this.isTradeActive = true;
 
         ItemStack senderHead = playerHead(sender);
@@ -99,7 +99,7 @@ public class TradeMenuHolder implements InventoryHolder {
 
         MiniMessage miniMessage = MiniMessage.miniMessage();
 
-        plugin().getServer().getScheduler().runTaskTimer(plugin(), /* Lambda: */task -> {
+        tigerBeachInstance().getServer().getScheduler().runTaskTimer(tigerBeachInstance(), /* Lambda: */task -> {
             if (count.get() < 3 && (this.isSenderReady && this.isReceiverReady)) {
                 audience.playSound(sound);
                 audience.sendMessage(miniMessage.deserialize("<yellow>בקשת הסחר תסגר בעוד <left>", Placeholder.parsed("left", String.valueOf(3 - count.get()))));

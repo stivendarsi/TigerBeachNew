@@ -1,7 +1,6 @@
 package me.stivendarsi.tigerBeach.mine;
 
 import org.bukkit.block.BlockType;
-
 import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 import java.util.List;

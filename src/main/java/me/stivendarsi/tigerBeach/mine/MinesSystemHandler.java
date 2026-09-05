@@ -13,47 +13,47 @@ import org.bukkit.World;
 import org.bukkit.block.BlockType;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
-
 import org.jetbrains.annotations.Nullable;
 import java.io.File;
 import java.util.*;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class MinesSystemHandler extends YamlConfigFile {
-    private final Map<String, Mine> mineMap = new HashMap<>();
-    private final Map<UUID, ActionBarTimer> activeActionbars = new HashMap<>();
+    private final Map<String, MineData> mineMap = new HashMap<>();
+  //  private final Map<UUID, ActionBarTimer> activeActionbars = new HashMap<>();
     private final Set<UUID> requirementsBypass = new HashSet<>();
 
     public MinesSystemHandler() {
-        super(new File(TigerBeach.plugin().getDataFolder(), "mines.yml"));
+        super(new File(TigerBeach.tigerBeachInstance().getDataFolder(), "mines.yml"));
     }
 
     @Nullable
-    public Mine getMine(String mineId) {
+    public MineData getMine(String mineId) {
         return this.mineMap.getOrDefault(mineId, null);
     }
 
     public void stopTimers() {
-       // plugin().getLogger().info("cancelling timers");
-        plugin().getServer().getScheduler().cancelTasks(plugin());
-        this.activeActionbars.forEach((uuid, actionBarTimer) -> actionBarTimer.stop());
+        // plugin().getLogger().info("cancelling timers");
+        tigerBeachInstance().getServer().getGlobalRegionScheduler().cancelTasks(tigerBeachInstance());
+        tigerBeachInstance().getServer().getScheduler().cancelTasks(tigerBeachInstance());
+      //  this.activeActionbars.forEach((uuid, actionBarTimer) -> actionBarTimer.stop());
     }
 
 
-    public Map<String, Mine> getMineMap() {
+    public Map<String, MineData> getMineMap() {
         return mineMap;
     }
 
-    public void activatePlayerActionBar(UUID uuid, Mine mine) {
-        if (mine.isActionBarEnabled()) {
-            ActionBarTimer barTimer = this.activeActionbars.getOrDefault(uuid, null);
-            if (barTimer != null) barTimer.stop();
-            ActionBarTimer actionBarTimer = new ActionBarTimer(mine, uuid);
-            actionBarTimer.start();
-            this.activeActionbars.put(uuid, actionBarTimer);
-        }
-    }
+//    public void activatePlayerActionBar(UUID uuid, Mine mine) {
+//        if (mine.isActionBarEnabled()) {
+//          //  ActionBarTimer barTimer = this.activeActionbars.getOrDefault(uuid, null);
+//            if (barTimer != null) barTimer.stop();
+//            ActionBarTimer actionBarTimer = new ActionBarTimer(mine, uuid);
+//            actionBarTimer.start();
+//            this.activeActionbars.put(uuid, actionBarTimer);
+//        }
+//    }
 
     public void addPlayerRequirementsBypass(UUID player) {
         this.requirementsBypass.add(player);
@@ -77,33 +77,18 @@ public class MinesSystemHandler extends YamlConfigFile {
             if (mineSection == null) continue;
 
             CuboidRegion region = loadRegion(mineSection);
-            Mine.Builder mineBuilder = Mine.mineBuilder(mineId, region);
 
-            if (mineSection.contains("actionbar")) {
-                boolean enableActionBar = mineSection.getBoolean("actionbar.enabled");
-                int range = mineSection.getInt("actionbar.range");
-                if (mineSection.contains("actionbar.message")) {
-                    String msg = mineSection.getString("actionbar.message");
-                    mineBuilder.actionBarMSG(msg);
-                }
-                mineBuilder.actionBarRange(range);
-                mineBuilder.actionBar(enableActionBar);
-            }
+            boolean enableActionBar = mineSection.getBoolean("actionbar.enabled");
+            int actionBarRange = mineSection.getInt("actionbar.range");
+            String actionBarMSG = mineSection.getString("actionbar.message", "<green> זמן שנשאר: <gold><time_left></gold> | נשארו <percent_left>");
 
-            if (mineSection.contains("requirements.weight"))
-                mineBuilder.requiredWeight(mineSection.getDouble("requirements.weight"));
+            double requiredWeight = mineSection.getDouble("requirements.weight");
+            String requiredConversionGroupName = mineSection.getString("requirements.item_definition_group");
 
-            if (mineSection.contains("requirements.item_definition_group"))
-                mineBuilder.requiredConversionGroupName(mineSection.getString("requirements.item_definition_group"));
+            double resetSeconds = mineSection.getDouble("reset.seconds", 5);
+            int resetPercent = mineSection.getInt("reset.percent", 10);
 
-            if (mineSection.contains("reset")) {
-                double seconds = mineSection.getDouble("reset.seconds", 5);
-                int percent = mineSection.getInt("reset.percent", 10);
-                mineBuilder.resetDelay(seconds);
-                mineBuilder.resetAtPercentX(percent);
-            }
-
-
+            Map<BlockType, MineBlock> mineBlockMap = new HashMap<>();
             ConfigurationSection blocksSection = mineSection.getConfigurationSection("blocks");
             if (blocksSection != null) {
                 for (String blockTypeName : blocksSection.getKeys(false)) {
@@ -122,11 +107,13 @@ public class MinesSystemHandler extends YamlConfigFile {
                         blockBuilder.addReward(reward);
                     }
 
-                    mineBuilder.addMineBlock(blockBuilder.build());
+
+                    mineBlockMap.put(blockType, blockBuilder.build());
                 }
             }
 
-            this.mineMap.put(mineId, mineBuilder.build());
+            MineData mineData = new MineData(mineId, mineBlockMap, region, enableActionBar, actionBarRange, actionBarMSG, requiredWeight, requiredConversionGroupName, resetSeconds, resetPercent);
+            this.mineMap.put(mineId, mineData);
         }
 
         startMines();
@@ -134,7 +121,7 @@ public class MinesSystemHandler extends YamlConfigFile {
 
 
     public void startMines() {
-        for (Mine value : this.mineMap.values()) {
+        for (MineData value : this.mineMap.values()) {
             value.startTimer();
         }
     }
@@ -167,35 +154,35 @@ public class MinesSystemHandler extends YamlConfigFile {
     }
 
 
-    public void registerMine(Mine mine) {
-        String id = mine.getId();
-        BlockVector3 max = mine.getRegion().getMaximumPoint();
+    public void registerMine(MineData mineData) {
+        String id = mineData.getId();
+        BlockVector3 max = mineData.getMineBoundingBox().getMaximumPoint();
         get().set("%s.region.1.x".formatted(id), max.x());
         get().set("%s.region.1.y".formatted(id), max.y());
         get().set("%s.region.1.z".formatted(id), max.z());
 
-        BlockVector3 min = mine.getRegion().getMinimumPoint();
+        BlockVector3 min = mineData.getMineBoundingBox().getMinimumPoint();
         get().set("%s.region.2.x".formatted(id), min.x());
         get().set("%s.region.2.y".formatted(id), min.y());
         get().set("%s.region.2.z".formatted(id), min.z());
 
-        com.sk89q.worldedit.world.World world = mine.getRegion().getWorld();
+        com.sk89q.worldedit.world.World world = mineData.getMineBoundingBox().getWorld();
         if (world != null) get().set("%s.region.world".formatted(id), world.getName());
 
 // requirements
-        get().set("%s.requirements.weight".formatted(id), mine.getMinimumRequiredWeight());
-        get().set("%s.requirements.conversion_group".formatted(id), mine.getRequiredConversionGroupName());
+        get().set("%s.requirements.weight".formatted(id), mineData.getMinimumRequiredWeight());
+        get().set("%s.requirements.conversion_group".formatted(id), mineData.getRequiredConversionGroupName());
 
 // ActionBar
-        get().set("%s.actionbar.enabled".formatted(id), mine.isActionBarEnabled());
-        get().set("%s.actionbar.range".formatted(id), mine.getActionBarRange());
-        get().set("%s.actionbar.message".formatted(id), mine.getActionBarMSG());
+        get().set("%s.actionbar.enabled".formatted(id), mineData.isActionBarEnabled());
+        get().set("%s.actionbar.range".formatted(id), mineData.getActionBarRange());
+        get().set("%s.actionbar.message".formatted(id), mineData.getActionBarMSG());
 
-        get().set("%s.reset.seconds".formatted(id), mine.resetDelay());
-        get().set("%s.reset.percent".formatted(id), mine.resetAtPercentX());
+        get().set("%s.reset.seconds".formatted(id), mineData.resetDelay());
+        get().set("%s.reset.percent".formatted(id), mineData.resetAtPercentX());
 
 
-        mine.getMineBlocks().forEach((blockType, mineBlock) -> {
+        mineData.getMineBlocks().forEach((blockType, mineBlock) -> {
             String name = blockType.key().asString();
             get().set("%s.blocks.%s.percent".formatted(id, name), mineBlock.getBlockPrecent());
 
@@ -215,16 +202,15 @@ public class MinesSystemHandler extends YamlConfigFile {
 
         save();
 
-        this.mineMap.put(mine.getId(), mine);
-        mine.startTimer();
+        this.mineMap.put(mineData.getId(), mineData);
+        mineData.startTimer();
     }
 
     @Nullable
-    public Mine getMineByPosition(Location location) {
-        for (Mine mine : this.mineMap.values()) {
-            if (mine.containPosition(location)) return mine;
+    public MineData getMineByPosition(Location location) {
+        for (MineData mineData : this.mineMap.values()) {
+            if (mineData.containPosition(location)) return mineData;
         }
         return null;
-
     }
 }

@@ -14,7 +14,7 @@ import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
 
 @SuppressWarnings("UnstableApiUsage")
 public class ItemGroupsBrowser implements InventoryHolder {
-    private final Inventory inventory = TigerBeach.plugin().getServer().createInventory(this, 54);
+    private final Inventory inventory = TigerBeach.tigerBeachInstance().getServer().createInventory(this, 54);
 
     public ItemGroupsBrowser() {
         ItemStack border = ItemType.WHITE_STAINED_GLASS_PANE.createItemStack();

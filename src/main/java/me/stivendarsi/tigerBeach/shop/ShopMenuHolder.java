@@ -11,14 +11,14 @@ import org.bukkit.inventory.ItemType;
 import java.util.LinkedList;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class ShopMenuHolder implements InventoryHolder {
 
     private final Inventory inventory;
 
     public ShopMenuHolder() {
-        this.inventory = plugin().getServer().createInventory(this, 27, MiniMessage.miniMessage().deserialize("<font:tiger_beach:beach><!shadow><white>\ue002\ue004"));
+        this.inventory = tigerBeachInstance().getServer().createInventory(this, 27, MiniMessage.miniMessage().deserialize("<font:tiger_beach:beach><!shadow><white>\ue002\ue004"));
 
         LinkedList<ItemDefinitionSection> icons = new LinkedList<>();
         mainHandler().shopHandler().icons().forEach((s, iconGroup) -> {

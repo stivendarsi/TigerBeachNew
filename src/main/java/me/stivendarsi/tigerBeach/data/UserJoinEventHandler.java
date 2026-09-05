@@ -34,7 +34,7 @@ public class UserJoinEventHandler implements Listener {
         UUID playerUUID = player.getUniqueId();
         if (!mainHandler().userHandler().isPlayerLoaded(playerUUID)) {
 
-            TigerBeach.plugin().getLogger().info("Does not Contain: " + playerUUID);
+            TigerBeach.tigerBeachInstance().getLogger().info("Does not Contain: " + playerUUID);
             BeachUser beachUser = BeachUser.defaultUser(playerUUID);
             mainHandler().userHandler().addUser(beachUser);
         }

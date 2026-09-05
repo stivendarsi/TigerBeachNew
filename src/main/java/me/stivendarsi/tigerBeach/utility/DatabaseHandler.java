@@ -18,10 +18,9 @@ import java.util.List;
 import java.util.UUID;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class DatabaseHandler {
-
     private HikariDataSource dataSource;
     private String username;
     private String password;
@@ -30,9 +29,9 @@ public class DatabaseHandler {
 
     public void load() {
         if (this.dataSource != null && !this.dataSource.isClosed()) this.dataSource.close();
-        this.username = plugin().getConfig().getString("database.username");
-        this.password = plugin().getConfig().getString("database.password");
-        this.JdbcUrl = plugin().getConfig().getString("database.jdbc-url");
+        this.username = tigerBeachInstance().getConfig().getString("database.username");
+        this.password = tigerBeachInstance().getConfig().getString("database.password");
+        this.JdbcUrl = tigerBeachInstance().getConfig().getString("database.jdbc-url");
         try {
             connect();
         } catch (SQLException e) {
@@ -43,7 +42,7 @@ public class DatabaseHandler {
 
     public void connect() throws SQLException {
         if (this.username == null || this.password == null || this.JdbcUrl == null) {
-            plugin().getLogger().warning("Some database info are null.");
+            tigerBeachInstance().getLogger().warning("Some database info are null.");
             return;
         }
 
@@ -143,7 +142,7 @@ public class DatabaseHandler {
     }
 
     public void saveUserAsync(BeachUser beachUser) {
-        plugin().getServer().getAsyncScheduler().runNow(plugin(), task -> {
+        tigerBeachInstance().getServer().getAsyncScheduler().runNow(tigerBeachInstance(), task -> {
             try {
                 Connection connection = dataSource.getConnection();
                 String sqlQuery = """
@@ -175,7 +174,7 @@ public class DatabaseHandler {
     }
 
     public void saveUsersAsync(List<BeachUser> beachUsers) {
-        plugin().getServer().getAsyncScheduler().runNow(plugin(), task -> {
+        tigerBeachInstance().getServer().getAsyncScheduler().runNow(tigerBeachInstance(), task -> {
             String sqlQuery = """
             INSERT INTO beach_users_data (
                 uuid, balance, bypass_progression, current_pickaxe_key,

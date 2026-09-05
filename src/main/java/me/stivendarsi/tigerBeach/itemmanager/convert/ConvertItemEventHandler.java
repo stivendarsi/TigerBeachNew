@@ -13,7 +13,7 @@ public class ConvertItemEventHandler implements Listener {
         if (!(event.getInventory().getHolder() instanceof ConvertMenuHolder convertMenu)) return;
         event.setCancelled(true);
         if (!(event.getWhoClicked() instanceof Player player)) return;
-        //player.updateInventory();
+        player.updateInventory();
         if (event.getRawSlot() != 15) return;
         if (event.getInventory().getItem(15) == null) {
             player.playSound(Sound.sound().type(Key.key("entity.villager.no")).build());

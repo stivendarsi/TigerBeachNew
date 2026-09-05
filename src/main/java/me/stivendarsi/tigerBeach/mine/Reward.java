@@ -40,8 +40,6 @@ public class Reward {
         return item.asQuantity(this.amount);
     }
 
-
-
     public String itemDefinitionGroupName() {
         return itemDefinitionGroupName;
     }

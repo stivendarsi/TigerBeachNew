@@ -21,7 +21,7 @@ public class ItemGroupBrowser implements InventoryHolder {
 
     public ItemGroupBrowser(ItemGroup group) {
         this.group = group;
-        this.inventory = TigerBeach.plugin().getServer().createInventory(this, 54);
+        this.inventory = TigerBeach.tigerBeachInstance().getServer().createInventory(this, 54);
         ItemStack border = ItemType.WHITE_STAINED_GLASS_PANE.createItemStack();
         border.setData(DataComponentTypes.TOOLTIP_DISPLAY, TooltipDisplay.tooltipDisplay().hideTooltip(true).build());
 

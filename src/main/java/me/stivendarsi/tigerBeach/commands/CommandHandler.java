@@ -34,11 +34,10 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
-import static com.mojang.brigadier.arguments.IntegerArgumentType.integer;
 import static com.mojang.brigadier.arguments.StringArgumentType.word;
 import static io.papermc.paper.command.brigadier.argument.ArgumentTypes.player;
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class CommandHandler {
     public CommandHandler(LifecycleEventManager<@NotNull Plugin> manager) {
@@ -64,20 +63,24 @@ public class CommandHandler {
                     .build());
 
             commands.register(Commands.literal("beach").requires(sourceStack -> sourceStack.getSender().hasPermission("beach.admin"))
+
+//                    .then(Commands.literal("convertToDataBase").executes(context -> {
+//                        boolean b = mainHandler().userHandler().convertYamlUsersToDataBase();
+//                        if (b) context.getSource().getSender().sendRichMessage("<green>הומר !!");
+//                        return 1;
+//                    }))
                     .then(Commands.literal("getItem").then(Commands.argument("item definition group", word()).suggests((ctx, builder) -> {
-                                        mainHandler().itemDefinitionSystemHandler().itemDefinitionGroupNamed().stream()
-                                                .filter(entry -> entry.toLowerCase().startsWith(builder.getRemainingLowerCase()))
-                                                .forEach(builder::suggest);
-                                        return builder.buildFuture();
-                                    }).then(Commands.argument("item definition id", word()).suggests((ctx, builder) -> {
-                                        String group = ctx.getArgument("item definition group", String.class);
-                                        mainHandler().itemDefinitionSystemHandler().itemDefinitionIds(group).stream()
-                                                .filter(entry -> entry.toLowerCase().startsWith(builder.getRemainingLowerCase()))
-                                                .forEach(builder::suggest);
-                                        return builder.buildFuture();
-                                    }).then(Commands.argument("player", player())
-                                    .then(Commands.argument("amount", integer(1)).executes(new GetItem()))))
-                            )
+                                mainHandler().itemDefinitionSystemHandler().itemDefinitionGroupNamed().stream()
+                                        .filter(entry -> entry.toLowerCase().startsWith(builder.getRemainingLowerCase()))
+                                        .forEach(builder::suggest);
+                                return builder.buildFuture();
+                            }).then(Commands.argument("item definition id", word()).suggests((ctx, builder) -> {
+                                String group = ctx.getArgument("item definition group", String.class);
+                                mainHandler().itemDefinitionSystemHandler().itemDefinitionIds(group).stream()
+                                        .filter(entry -> entry.toLowerCase().startsWith(builder.getRemainingLowerCase()))
+                                        .forEach(builder::suggest);
+                                return builder.buildFuture();
+                            }).executes(new GetItem())))
                     )
 
                     .then(Commands.literal("treasure").then(Commands.literal("generate").executes(new GenerateChests())).build())
@@ -124,7 +127,7 @@ public class CommandHandler {
     }
 
     private CompletableFuture<Suggestions> onlineUsers(final CommandContext<CommandSourceStack> ctx, final SuggestionsBuilder builder) {
-        plugin().getServer().getOnlinePlayers().stream().map(Player::getName).filter(name -> name.toLowerCase().startsWith(builder.getRemainingLowerCase())).forEach(builder::suggest);
+        tigerBeachInstance().getServer().getOnlinePlayers().stream().map(Player::getName).filter(name -> name.toLowerCase().startsWith(builder.getRemainingLowerCase())).forEach(builder::suggest);
         return builder.buildFuture();
     }
 

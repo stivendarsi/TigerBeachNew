@@ -25,7 +25,7 @@ public class ClickGroupMenuEventHandler implements Listener {
 
         event.setCancelled(true);
         if (event.getWhoClicked() instanceof Player player) {
-           // player.updateInventory();
+            player.updateInventory();
             int slot = event.getRawSlot();
             if (slot == 49) {
                 player.playSound(Sound.sound().type(Key.key("ui.button.click")).build());
@@ -34,7 +34,7 @@ public class ClickGroupMenuEventHandler implements Listener {
                 ItemStack itemStack = event.getCurrentItem();
                 if (itemStack != null) {
                     ItemGroup itemGroup = mainHandler().itemGroupsManager().getGroup(PlainTextComponentSerializer.plainText().serialize(itemStack.getDataOrDefault(DataComponentTypes.ITEM_NAME, Component.empty())).toLowerCase());
-                    Bukkit.getScheduler().runTaskLater(TigerBeach.plugin(), () -> {
+                    Bukkit.getScheduler().runTaskLater(TigerBeach.tigerBeachInstance(), () -> {
                         player.openInventory((new ItemGroupBrowser(itemGroup)).getInventory());
                         player.playSound(Sound.sound().type(Key.key("ui.button.click")).build());
                     }, 1L);

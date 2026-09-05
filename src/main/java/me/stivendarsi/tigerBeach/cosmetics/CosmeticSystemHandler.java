@@ -7,11 +7,11 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class CosmeticSystemHandler extends YamlConfigFile {
     public CosmeticSystemHandler() {
-        super(new File(plugin().getDataFolder(), "cosmetic.yml"));
+        super(new File(tigerBeachInstance().getDataFolder(), "cosmetic.yml"));
     }
 
     private Map<String, Cosmetic> cosmeticMap = new HashMap<>();

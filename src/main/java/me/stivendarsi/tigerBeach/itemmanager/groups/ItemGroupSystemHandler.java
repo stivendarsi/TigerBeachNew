@@ -3,7 +3,6 @@ package me.stivendarsi.tigerBeach.itemmanager.groups;
 import me.stivendarsi.tigerBeach.TigerBeach;
 import org.jetbrains.annotations.Nullable;
 
-
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,13 +12,13 @@ public class ItemGroupSystemHandler {
 
    public void loadGroups() {
       this.groupMap.clear();
-      File groupsFolder = new File(TigerBeach.plugin().getDataFolder(), "groups");
+      File groupsFolder = new File(TigerBeach.tigerBeachInstance().getDataFolder(), "groups");
       if (!groupsFolder.isDirectory()) {
          throw new RuntimeException("No groups file: " + groupsFolder.getPath());
       } else {
          File[] files = groupsFolder.listFiles();
          if (files == null) {
-            TigerBeach.plugin().getLogger().warning("Null Files");
+            TigerBeach.tigerBeachInstance().getLogger().warning("Null Files");
          } else {
             File[] var3 = files;
             int var4 = files.length;

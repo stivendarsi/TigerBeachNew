@@ -19,10 +19,10 @@ public class GetItemFromGroupMenuEventHandler implements Listener {
         if (!(event.getInventory().getHolder() instanceof ItemGroupBrowser itemGroupBrowser)) return;
         event.setCancelled(true);
         if (event.getWhoClicked() instanceof Player player) {
-        //    player.updateInventory();
+            player.updateInventory();
             int slot = event.getRawSlot();
             if (slot == 49) {
-                Bukkit.getScheduler().runTaskLater(TigerBeach.plugin(), () -> {
+                Bukkit.getScheduler().runTaskLater(TigerBeach.tigerBeachInstance(), () -> {
                     player.openInventory((new ItemGroupsBrowser()).getInventory());
                     player.playSound(Sound.sound().type(Key.key("ui.button.click")).build());
                 }, 1L);

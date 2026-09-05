@@ -1,7 +1,6 @@
 package me.stivendarsi.tigerBeach.data;
 
 import io.papermc.paper.persistence.PersistentDataContainerView;
-import me.stivendarsi.tigerBeach.TigerBeach;
 import me.stivendarsi.tigerBeach.itemmanager.convert.ConvertMenuHolder;
 import me.stivendarsi.tigerBeach.itemmanager.inventoryHandler.InventorySystemHandler;
 import me.stivendarsi.tigerBeach.itemmanager.itemdefinition.ItemDefinitionSection;
@@ -184,7 +183,6 @@ public class BeachUser {
 
             InventorySystemHandler.InventorySlot slot = InventorySystemHandler.InventorySlot.of(itemDefinitionKey.namespace());
             if (slot == null) {
-                TigerBeach.plugin().getLogger().warning("Replacing item!");
                 itemStack.setAmount(amount);
                 inventory.setItem(i, itemStack);
             } else {

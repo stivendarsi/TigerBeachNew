@@ -1,7 +1,6 @@
 package me.stivendarsi.tigerBeach.data;
 
 import io.papermc.paper.persistence.PersistentDataContainerView;
-import me.stivendarsi.tigerBeach.TigerBeach;
 import me.stivendarsi.tigerBeach.itemmanager.inventoryHandler.InventorySystemHandler;
 import me.stivendarsi.tigerBeach.itemmanager.itemdefinition.ItemDefinitionSection;
 import me.stivendarsi.tigerBeach.itemmanager.itemdefinition.tags.ConversionTag;
@@ -85,15 +84,10 @@ public class UserProgression {
         for (PriceVariable priceVariable : conversionTag.convertPrice()) {
             ItemStack itemStack = priceVariable.getItem();
             if (!inv.containsAtLeast(itemStack, priceVariable.amount())) {
-                TigerBeach.plugin().getLogger().warning("Doesn't have the required items");
                 return false;
             }
         }
-        if (itemDefinitionSection.isProgression()) {
-            TigerBeach.plugin().getLogger().warning("Its progression!");
-            return true;
-        }
-        TigerBeach.plugin().getLogger().warning("Checking if can fit");
+        if (itemDefinitionSection.isProgression()) return true;
         return canFitNext(inv, conversionTag);
     }
 

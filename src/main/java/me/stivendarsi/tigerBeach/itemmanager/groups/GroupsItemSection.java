@@ -121,7 +121,7 @@ public class GroupsItemSection {
     private org.bukkit.entity.Pig.Variant pig_variant;
     private PotDecorations pot_decorations;
     private PotionContents potion_contents;
-    private RegistryKeySet<PatternType> provides_banner_patterns;
+    private TagKey<PatternType> provides_banner_patterns;
     private TrimMaterial provides_trim_material;
     private org.bukkit.entity.Rabbit.Type rabbit_variant;
     @NonNegative
@@ -570,7 +570,7 @@ public class GroupsItemSection {
                 if (attribute != null) {
                     double amount = section.getDouble("attribute." + attributeName + ".amount");
                     String idName = section.getString("attribute." + attributeName + ".id");
-                    NamespacedKey key = new NamespacedKey(TigerBeach.plugin(), idName);
+                    NamespacedKey key = new NamespacedKey(TigerBeach.tigerBeachInstance(), idName);
                     String operationName = section.getString("attribute." + attributeName + ".operation");
                     Operation operation = Operation.valueOf(operationName.toUpperCase(Locale.ROOT));
                     String slotName = section.getString("attribute." + attributeName + ".slot");
@@ -676,7 +676,7 @@ public class GroupsItemSection {
         if (this.pig_variant != null) itemStack.setData(DataComponentTypes.PIG_VARIANT, this.pig_variant);
         if (this.pot_decorations != null) itemStack.setData(DataComponentTypes.POT_DECORATIONS, this.pot_decorations);
         if (this.potion_contents != null) itemStack.setData(DataComponentTypes.POTION_CONTENTS, this.potion_contents);
-        if (this.provides_banner_patterns != null) itemStack.setData(DataComponentTypes.PROVIDES_BANNER_PATTERNS, this.provides_banner_patterns);
+
         if (this.provides_trim_material != null)
             itemStack.setData(DataComponentTypes.PROVIDES_TRIM_MATERIAL, this.provides_trim_material);
         if (this.rabbit_variant != null) itemStack.setData(DataComponentTypes.RABBIT_VARIANT, this.rabbit_variant);
@@ -1164,7 +1164,7 @@ public class GroupsItemSection {
         return this;
     }
 
-    public GroupsItemSection setProvides_banner_patterns(RegistryKeySet<PatternType> provides_banner_patterns) {
+    public GroupsItemSection setProvides_banner_patterns(TagKey<PatternType> provides_banner_patterns) {
         this.provides_banner_patterns = provides_banner_patterns;
         return this;
     }
@@ -1310,9 +1310,5 @@ public class GroupsItemSection {
         private static ConsumeEffectType[] $values() {
             return new ConsumeEffectType[]{APPLY_EFFECTS, REMOVE_EFFECTS, CLEAR_ALL_EFFECTS, TELEPORT_RANDOMLY, PLAY_SOUND};
         }
-    }
-
-    public List<String> getLore(){
-        return this.lore;
     }
 }

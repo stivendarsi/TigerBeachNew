@@ -8,9 +8,7 @@ import com.sk89q.worldedit.bukkit.BukkitAdapter;
 import com.sk89q.worldedit.regions.Region;
 import com.sk89q.worldedit.world.World;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
-import me.stivendarsi.tigerBeach.mine.Mine;
-import me.stivendarsi.tigerBeach.mine.MineBlock;
-import org.bukkit.block.BlockType;
+import me.stivendarsi.tigerBeach.mine.MineData;
 import org.bukkit.entity.Player;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
@@ -21,9 +19,9 @@ public class CreateMine implements Command<CommandSourceStack> {
         CommandSourceStack source = context.getSource();
         if (!(source.getExecutor() instanceof Player player)) return 1;
 
-        String id = context.getArgument("id", String.class);
+        String mineIdentifier = context.getArgument("id", String.class);
 
-        if (mainHandler().minesHandler().getMine(id) != null) {
+        if (mainHandler().minesHandler().getMine(mineIdentifier) != null) {
             player.sendRichMessage("<red>מחצבה עם שם דומה כבר קיימת");
             return 1;
         }
@@ -39,13 +37,8 @@ public class CreateMine implements Command<CommandSourceStack> {
         }
         Region region = localSession.getSelection(selectionWorld).clone();
 
-        Mine.Builder builder = Mine.mineBuilder(id, region);
-        MineBlock mineBlock = MineBlock.blockBuilder(BlockType.BEDROCK).setBlockPrecent(100).build();
-        builder.addMineBlock(mineBlock);
-        builder.resetDelay(8);
-        builder.actionBarRange(20);
-        Mine mine = builder.build();
-        mainHandler().minesHandler().registerMine(mine);
+        MineData mineData = MineData.defaultMine(mineIdentifier, region);
+        mainHandler().minesHandler().registerMine(mineData);
         player.sendRichMessage("<green>יצרת מחצבה");
 
         return 1;

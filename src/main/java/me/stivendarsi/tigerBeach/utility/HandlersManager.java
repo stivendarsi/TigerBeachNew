@@ -11,7 +11,7 @@ import me.stivendarsi.tigerBeach.treasure.TreasureSystemHandler;
 
 import java.io.File;
 
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class HandlersManager {
     private final ItemGroupSystemHandler groupsManager;
@@ -75,7 +75,7 @@ public class HandlersManager {
     public HandlersManager() {
         groupsManager = new ItemGroupSystemHandler();
         constants = new Constants();
-        inventorySystemHandler = new InventorySystemHandler(new File(plugin().getDataFolder(), "inventory.yml"));
+        inventorySystemHandler = new InventorySystemHandler(new File(tigerBeachInstance().getDataFolder(), "inventory.yml"));
         itemDefinitionSystemHandler = new ItemDefinitionSystemHandler();
         userSystemHandler = new UserSystemHandler();
         utilityManager = new UtilityManager();

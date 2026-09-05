@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 import static me.stivendarsi.tigerBeach.TigerBeach.mainHandler;
-import static me.stivendarsi.tigerBeach.TigerBeach.plugin;
+import static me.stivendarsi.tigerBeach.TigerBeach.tigerBeachInstance;
 
 public class ShopSystemHandler extends YamlConfigFile {
     private Map<String, ItemDefinitionGroup> icons = new LinkedHashMap<>();
@@ -18,7 +18,7 @@ public class ShopSystemHandler extends YamlConfigFile {
     private Map<String, Aisle> aisles = new LinkedHashMap<>();
 
     public ShopSystemHandler() {
-        super(new File(plugin().getDataFolder(), "shop.yml"));
+        super(new File(tigerBeachInstance().getDataFolder(), "shop.yml"));
     }
 
     public void load() {
@@ -29,7 +29,7 @@ public class ShopSystemHandler extends YamlConfigFile {
             this.icons.put(iconGroup, itemDefinitionGroup);
         }
 
-        File file = new File(plugin().getDataFolder(), "aisles");
+        File file = new File(tigerBeachInstance().getDataFolder(), "aisles");
         if (!file.isDirectory()) return;
         File[] files = file.listFiles();
         if (files == null) return;

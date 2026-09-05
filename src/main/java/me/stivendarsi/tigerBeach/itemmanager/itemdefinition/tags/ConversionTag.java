@@ -3,8 +3,6 @@ package me.stivendarsi.tigerBeach.itemmanager.itemdefinition.tags;
 import me.stivendarsi.tigerBeach.itemmanager.itemdefinition.ItemDefinitionSection;
 import me.stivendarsi.tigerBeach.utility.PriceVariable;
 import org.jetbrains.annotations.Nullable;
-
-
 import java.util.ArrayList;
 import java.util.List;
 
