@@ -118,7 +118,7 @@ public class MineData {
     }
 
     public boolean playerInMineRange(Location loc) {
-        return this.rangedRegion.contains(loc.getBlockX(), loc.getBlockY(), loc.getBlockZ());
+        return this.rangedRegion.contains((int) loc.x(), (int) loc.y(), (int) loc.z());
     }
 
 
